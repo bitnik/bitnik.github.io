@@ -5,15 +5,16 @@ on:
       - master
 jobs:
   build:
-    runs-on: macos-latest
+    runs-on: ubuntu-20.04
     steps:
     - uses: actions/checkout@v2
-    - name: Setup Node
-      uses: actions/setup-node@v1
+    # https://github.com/actions/setup-node
+    - uses: actions/setup-node@v1
       with:
         node-version: '12.x'
     - run: npm install
     - run: npm run build
+    # https://github.com/JamesIves/github-pages-deploy-action
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
