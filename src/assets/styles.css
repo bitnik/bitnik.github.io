@@ -1,5 +1,4 @@
 /* https://www.tutorialspoint.com/css/css_printing.htm */
-
 @media screen, print {
     .photo {
         max-height: 150px;
@@ -87,6 +86,12 @@
     .card {
         background-color: #f6fef6;
         margin-bottom: 1rem;
+    }
+
+    @media (max-width: 991px) {
+        .donkey {
+            max-height: 400px;
+        }
     }
 
     @media (min-width: 576px) {
