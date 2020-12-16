@@ -28,7 +28,7 @@
     {
       title: '<a href="https://www.gesis.org/en/home">GESIS – Leibniz Institute for the Social Sciences</a>, Cologne, Germany',
       date: '10.2017 - 12.2020',
-      badges: ['python', 'JupyterHub', 'BinderHub', 'repo2docker', 'Docker', 'Kubernetes', 'GitLab CI/CD', 'Prometheus', 'Grafana'],
+      badges: ['python', 'JupyterHub', 'BinderHub', 'repo2docker', 'Docker', 'Kubernetes', 'Helm', 'GitLab CI/CD', 'Prometheus', 'Grafana', 'Elastic Stack'],
       content: `
 Lead Software Developer
 
@@ -55,7 +55,7 @@ Reference: [Dr. Arnim Bleier](https://www.gesis.org/institut/mitarbeiterverzeich
     {
       title: '<a href="https://www.gesis.org/en/home">GESIS – Leibniz Institute for the Social Sciences</a>, Cologne, Germany',
       date: '07.2016 - 09.2017',
-      badges: ['python', 'Django', 'REST API', 'Swagger', 'Celery', 'Gunicorn', 'WikiPedia'],
+      badges: ['python', 'Django', 'Gunicorn', 'REST API', 'Swagger', 'Celery', 'RabbitMQ', 'RabbitMQ', 'WikiPedia'],
       content: `
 Lead Software Developer
 
@@ -173,10 +173,10 @@ Exchange Semester
     ['Python', '8/10'],
     //['git', '++++'],
     ['Django', '++++'],
-    ['Flask', '++++'],
+    //['Flask', '++++'],
     ['Docker', '++++'],
     ['Kubernetes', '+++'],
-    ['Helm', '+++'],
+    //['Helm', '+++'],
     ['Linux (Debian)', '++++'],
     ['PostgreSQL', '++++'],
     //['JavaScript', '++++'],
