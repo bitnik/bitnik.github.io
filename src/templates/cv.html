@@ -38,6 +38,19 @@
         </div>
     </div>
 
+    <h2>Skills</h2>
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                {{#each skills}}
+                <div class="col-print-3 col-md-3 col-sm-6 col-12">
+                    * {{ this.[0] }}
+                </div>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+
     <h2>Working Experience</h2>
     {{#each experiences}}
     <div class="card">
@@ -45,7 +58,7 @@
             <h4>{{{title}}}</h4>
             <p class="text-muted">{{ date }}</p>
             {{{markdown content }}}
-            <div>
+            <div class="">
                 {{#each badges }}
                 <span class="badge">{{ this }}</span>
                 {{/each}}
@@ -67,7 +80,7 @@
         </div>
     </div>
 
-    <h2>Knowledge and Skills</h2>
+    {{!-- <h2>Knowledge and Skills</h2>
     <div class="card">
         <div class="card-body">
             <h4>Tech</h4>
@@ -79,6 +92,19 @@
                 {{/each}}
             </div>
             <h4>Languages</h4>
+            <div class="row">
+                {{#each languages}}
+                <div class="col-print-3 col-md-3 col-sm-6 col-12">
+                    * {{ this.[0] }} {{#if this.[1] }}({{ this.[1] }}){{/if}}
+                </div>
+                {{/each}}
+            </div>
+        </div>
+    </div> --}}
+    
+    <h2>Languages</h2>
+    <div class="card">
+        <div class="card-body">
             <div class="row">
                 {{#each languages}}
                 <div class="col-print-3 col-md-3 col-sm-6 col-12">
