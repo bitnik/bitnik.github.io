@@ -13,7 +13,6 @@ jobs:
       with:
         node-version: '12.x'
     - run: npm install
-    - run: which chromium
     - run: npm run build
     # https://github.com/JamesIves/github-pages-deploy-action
     - name: Deploy

@@ -52,9 +52,8 @@ fs.writeFileSync(outputDir + '/cv_de.html', htmlCvDe);
 buildPdf = async function (inputFile, outputFile) {
   // const browser = await Puppeteer.launch();
   // add path of chromium (which chromium)
-  const browser = await Puppeteer.launch({
-    executablePath: '/usr/bin/chromium'
-  })
+  // TODO find a solution without --no-sandbox
+  const browser = await Puppeteer.launch({args: ['--no-sandbox']})
   const page = await browser.newPage();
   await page.goto(`file://${inputFile}`, {
     waitUntil: 'networkidle0'
