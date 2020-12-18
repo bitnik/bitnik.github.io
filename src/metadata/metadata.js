@@ -14,7 +14,7 @@
   facts: {
     'Residence': '<a class="link-soft-purple" href="https://goo.gl/maps/eUu9rBUPwRS9A9Wb6"><i class="fas fa-home fa-custom"></i>Cologne, DE</a>',
     'Email': '<a class="link-soft-purple" href="mailto:kenanerdogan@gmail.com"><i class="fas fa-envelope fa-custom"></i>kenanerdogan@gmail.com</a>',
-    'Phone': '<span class="color-soft-purple"><i class="fas fa-phone fa-custom"></i>+49 176 471 02212</span>',
+    'Phone': '<a class="link-soft-purple"  href="tel:+4917647102212"><i class="fas fa-phone fa-custom"></i>+49 176 471 02212</a>',
     'Homepage': `<a class="link-soft-purple" href="http://bitnik.xyz">
                   <span class="print"><i class="fas fa-globe fa-custom"></i>http://bitnik.xyz</span>
                   <span class="screen"><i class="fas fa-globe fa-custom"></i>bitnik.xyz</span>
@@ -202,6 +202,6 @@ Exchange Semester
     'Pilates',
     'Reading',
     'Meditation',
-    'Sewing'
+    //'Sewing'
   ]
 };

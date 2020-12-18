@@ -58,7 +58,10 @@
     }
 
     .bg-color-soft-green {
-        background-color: #d2f8d2;
+        /* https://www.colorhexa.com/99b090 */
+        /*background-color: #99b090;*/
+        /*background-color: #e2f3eb;*/
+        background-color: #f0f9f5;
     }
     .bg-color-green {
         /* olive: https://clrs.cc/ */
@@ -70,22 +73,23 @@
     a.link-purple:hover  { 
         color: #690169 !important;  
     }
-    .color-soft-purple, a.link-soft-purple:link, a.link-soft-purple:visited, a.link-soft-purple:active,
+    /*.color-soft-purple, a.link-soft-purple:link, a.link-soft-purple:visited, a.link-soft-purple:active,
     .card-body a:link, .card-body a:visited, .card-body a:active {
-        /* https://www.colorhexa.com/9370db */
-        color: #845cd6 !important;;
+        color: #845cd6 !important;
     }
     a.link-soft-purple:hover, .card-body a:hover  { 
         color: #6533cb !important;  
         text-decoration: none;
-    }
+    }*/
     .badge {
         color: #ffffff;
-        background-color: #845cd6;
+        background-color: #8c7291;
     }
     .card {
-        background-color: #f6fef6;
+        /*background-color: #c2d0bd;*/
+        background-color: #f0f9f5;
         margin-bottom: 1rem;
+        border: 1px solid rgba(1,1,1,.125);
     }
 
     @media (max-width: 991px) {
