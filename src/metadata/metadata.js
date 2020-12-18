@@ -10,7 +10,9 @@
     'Email': '<a class="link-purple" href="mailto:kenanerdogan@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>',
     'LinkedIn': '<a class="link-purple" href="https://www.linkedin.com/in/kenanerdogan"><i class="fab fa-linkedin fa-2x"></i></a>',
     'Xing': '<a class="link-purple" href="https://www.xing.com/profile/Kenan_Erdogan12"><i class="fab fa-xing-square fa-2x"></i></a>',
-  },
+    //'CV': '<!--a class="link-purple" href="cv.html"><i class="far fa-file fa-2x" title="CV"></i></a-->',
+    //'CV DE': '<!--a class="link-purple" href="cv.html"><i class="far fa-file fa-2x" title="CV (in German)"></i></a-->',
+    },
   facts: {
     'Residence': '<a class="link-soft-purple" href="https://goo.gl/maps/eUu9rBUPwRS9A9Wb6"><i class="fas fa-home fa-custom"></i>Cologne, DE</a>',
     'Email': '<a class="link-soft-purple" href="mailto:kenanerdogan@gmail.com"><i class="fas fa-envelope fa-custom"></i>kenanerdogan@gmail.com</a>',
@@ -28,7 +30,7 @@
     {
       title: '<a href="https://www.gesis.org/en/home">GESIS – Leibniz Institute for the Social Sciences</a>, Cologne, Germany',
       date: '10.2017 - 12.2020',
-      badges: ['python', 'JupyterHub', 'BinderHub', 'repo2docker', 'Docker', 'Kubernetes', 'Helm', 'GitLab CI/CD', 'Prometheus', 'Grafana', 'Elastic Stack'],
+      badges: ['python', 'JupyterHub', 'BinderHub', 'repo2docker', 'Docker', 'Kubernetes', 'Helm', 'NFS Provisioner', 'GitLab CI/CD', 'Prometheus', 'Grafana', 'Elastic Stack'],
       content: `
 Lead Software Developer
 
@@ -39,23 +41,23 @@ or learning to program languages such as R, Python or Julia .
 **Responsibilities:**
 
 - Planning of the complete software development process
-- Setup and maintenance of servers and the kubernetes cluster
+- Setup and maintenance of the servers and the kubernetes cluster
 - Deployment and maintenance of [a Persistent BinderHub](https://notebooks.gesis.org/), [a public BinderHub](https://notebooks.gesis.org/binder/) 
 (GitHub repo: [gesiscss/orc](https://github.com/gesiscss/orc))
-- Automation of all aspects including image building, chart and configuration updates, and deployment
+- Automation of all aspects including image building, chart and configuration updates, and deployments
 - Initial implementation of the [GESIS Login](https://login.gesis.org/) system
-- Cooperation with jupyter projects
+- Cooperation with open source projects (Jupyter projects) and contributing
 - Jupytercon 2020 Talk: ["A Persistent BinderHub: Democratizing Access to Computational Resources in the Social Sciences"](https://www.youtube.com/watch?v=dwidVhPtQT4)
 - Workshop: ["Introduction to Python"](https://hf-graduiertenschule.uni-koeln.de/index.php?id=32102&L=1)
 - Publication: ["iLCM - A Virtual Research Infrastructure for Large-Scale Qualitative Data."](https://arxiv.org/abs/1805.11404)
 
-Reference: [Dr. Arnim Bleier](https://www.gesis.org/institut/mitarbeiterverzeichnis/person/arnim.bleier)
+Reference: [Dr. Arnim Bleier](https://www.gesis.org/en/institute/staff/person/arnim.bleier)
 `
     },
     {
       title: '<a href="https://www.gesis.org/en/home">GESIS – Leibniz Institute for the Social Sciences</a>, Cologne, Germany',
       date: '07.2016 - 09.2017',
-      badges: ['python', 'Django', 'Gunicorn', 'REST API', 'Swagger', 'Celery', 'RabbitMQ', 'RabbitMQ', 'WikiPedia'],
+      badges: ['python', 'Django', 'Gunicorn', 'REST API', 'Swagger', 'Celery', 'RabbitMQ', 'WikiPedia'],
       content: `
 Lead Software Developer
 
@@ -69,12 +71,12 @@ This means that for every token, its individual add/removal/reintroduction histo
 - Speed and accuracy improvement of the existing core WikiWho algorithm
 - Realisation of [the website, the REST API, and a web-based API interface](https://www.wikiwho.net/)
 - Realisation of a listener for Wikipedia events, connected to a task queue
-- Update and improvement of [the WhoColor server and user tools](https://github.com/wikiwho/WikiWho)
+- Update and improvement of [the WhoColor server and user tools](https://github.com/wikiwho/WhoColor)
 - Data analysis: authorship, persistence, conflict, editor interactions
 - Generation of a [data set](https://doi.org/10.5281/zenodo.834557) for the entire English Wikipedia: 
 ["TokTrack: A Complete Token Provenance and Change Tracking Dataset for the English Wikipedia"](https://arxiv.org/abs/1703.08244)
 
-Reference: [Dr. Fabian Flöck](https://www.gesis.org/institut/mitarbeiterverzeichnis/person/fabian.floeck)
+Reference: [Dr. Fabian Flöck](https://www.gesis.org/en/institute/staff/person/fabian.floeck)
 `
     },
     {
@@ -83,7 +85,7 @@ Reference: [Dr. Fabian Flöck](https://www.gesis.org/institut/mitarbeiterverzeic
       badges: ['Backend Development', 'python', 'Django'],
       content: `
 Software Developer
-`
+      `
     },
     {
       title: 'Induux GmbH, Stuttgart, Germany',
@@ -151,7 +153,7 @@ Design and implementation of a server on graphic processor for secure RFID syste
 
 ##### Activities
 
-- 09.2007 - 06.2011 : Member of Istanbul Technical University Control and Automation Student Society
+- 09.2007 - 06.2011 : Member of the ITU Control and Automation Student Society
 - 09.2008 - 06.2009 : Administrative Committee Member of the ITU Robotic Olympics
 - 09.2008 - 01.2009 : Member of the ITU Mountaineering Club
 `
@@ -160,7 +162,7 @@ Design and implementation of a server on graphic processor for secure RFID syste
       title: 'ESIGELEC, Rouen, France',
       date: '09.2009 - 02.2010',
       content: `
-Exchange Semester   
+Exchange Semester
 `
     },
     {
