@@ -35,13 +35,13 @@
       content: `
 **Project:** [GESIS Notebooks](https://notebooks.gesis.org/about/) is a free and hosted service for running Jupyter Notebooks requiring no installation, 
 which enable you to get started quickly with your research ideas, prototyping your data science projects, 
-or learning to program languages such as R, Python or Julia .
+or learning to program languages such as R, Python or Julia.
 
 **Responsibilities:**
 
 - Planning of the complete software development process
 - Setup and maintenance of the servers and the kubernetes cluster
-- Deployment and maintenance of [a Persistent BinderHub](https://notebooks.gesis.org/), [a public BinderHub](https://notebooks.gesis.org/binder/) 
+- Deployment and maintenance of [a Persistent BinderHub](https://notebooks.gesis.org/) and [a public BinderHub](https://notebooks.gesis.org/binder/) 
 (GitHub repo: [gesiscss/orc](https://github.com/gesiscss/orc))
 - Automation of all aspects including image building, chart and configuration updates and deployments
 - Initial implementation of the [GESIS Login](https://login.gesis.org/) system
@@ -139,7 +139,7 @@ Topic: Realization of incremental learning for automated identification using th
 B.Sc. in Electronics Engineering (graduation in honor list)  
 
 ##### Bachelor Thesis at Embedded System Design Laboratory
-Topic: Design and implementation of a server on graphic processor for secure RFID systems
+Topic: Design and implementation of a server on a graphic processor for secure RFID systems
 
 - Parallel programming
 - CUDA, GPU programming
