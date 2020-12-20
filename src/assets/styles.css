@@ -68,10 +68,12 @@
         background-color: #3d9970;
     }
     .color-purple, a.link-purple:link, a.link-purple:visited, a.link-purple:active {
-        color: #7a3e7a !important;;
+        /* color: #993d66 !important; */
+        color: #7a3e7a !important;
     }
     a.link-purple:hover  { 
-        color: #690169 !important;  
+        /* color: #622742 !important; */
+        color: #472447 !important;
     }
     /*.color-soft-purple, a.link-soft-purple:link, a.link-soft-purple:visited, a.link-soft-purple:active,
     .card-body a:link, .card-body a:visited, .card-body a:active {

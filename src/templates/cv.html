@@ -42,7 +42,7 @@
         </div>
     </div>
 
-    <h2>Skills</h2>
+    <h2>Technical Skills</h2>
     <div class="card">
         <div class="card-body">
             <div class="row">
@@ -55,13 +55,16 @@
         </div>
     </div>
 
-    <h2>Working Experience</h2>
+    <h2>Work Experience</h2>
     {{#each experiences}}
     <div class="card">
         <div class="card-body">
-            <h4>{{{title}}}</h4>
             <p class="text-muted">{{ date }}</p>
+            <h4>{{{position}}}</h4>
+            <h5>{{{title}}}</h4>
+            {{#if content}}
             {{{markdown content }}}
+            {{/if}}
             <div class="">
                 {{#each badges }}
                 <span class="badge">{{ this }}</span>
@@ -72,7 +75,7 @@
     {{!--<div class="print mb-1"></div>--}}
     {{/each}}
 
-    <h2>Education</h2>
+    <h2>Higher Education</h2>
     <div class="card">
         <div class="card-body">
             {{#each education}}
