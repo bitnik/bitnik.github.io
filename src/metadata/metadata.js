@@ -3,7 +3,6 @@
   title: 'Software Engineer',
   baseUrl: 'http://bitnik.xyz/cv.html',
   photo: 'KenanErdogan.jpg',
-  // http://www.artnet.com/artists/john-emms/a-donkey-In3L5WFlQCW2dG5NJXSrHw2
   picture: 'john-emms-a-donkey.jpg',
   info: {
     'GitHub': '<a class="link-purple" href="https://github.com/bitnik"><i class="fab fa-github fa-2x"></i></a>',

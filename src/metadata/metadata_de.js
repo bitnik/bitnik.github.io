@@ -18,9 +18,9 @@
   },
   experiences: [
     {
-      title: '<a href="https://www.gesis.org/en/home">GESIS – Leibniz-Institut für Sozialwissenschaften</a>, Köln, Germany',
+      title: '<a href="https://www.gesis.org/en/home">GESIS – Leibniz-Institut für Sozialwissenschaften</a>, Köln, Deutschland',
       date: '10.2017 - 12.2020',
-      position: 'Lead Software Developer',
+      position: 'Lead-Software-Entwickler',
       badges: ['python', 'JupyterHub', 'BinderHub', 'repo2docker', 'Docker', 'Kubernetes', 'Helm', 'NFS Provisioner', 'GitLab CI/CD', 'Prometheus', 'Grafana', 'Elastic Stack'],
       content: `
 **Projekt:** [GESIS Notebooks](https://notebooks.gesis.org/about/)
@@ -42,9 +42,9 @@ Referenz: [Dr. Arnim Bleier](https://www.gesis.org/institut/mitarbeiterverzeichn
 `
     },
     {
-      title: '<a href="https://www.gesis.org/en/home">GESIS – Leibniz-Institut für Sozialwissenschaften</a>, Köln, Germany',
+      title: '<a href="https://www.gesis.org/en/home">GESIS – Leibniz-Institut für Sozialwissenschaften</a>, Köln, Deutschland',
       date: '07.2016 - 09.2017',
-      position: 'Lead Software Developer',
+      position: 'Lead-Software-Entwickler',
       badges: ['python', 'Django', 'Gunicorn', 'REST API', 'Swagger', 'Celery', 'RabbitMQ', 'RabbitMQ', 'WikiPedia'],
       content: `
 **Projekt:** [WikiWho](https://github.com/wikiwho/WikiWho)
@@ -63,36 +63,36 @@ Referenz: [Dr. Fabian Flöck](https://www.gesis.org/institut/mitarbeiterverzeich
 `
     },
     {
-      title: '<a href="https://www.mir.de/">MIR MEDIA</a>, Köln, Germany',
+      title: '<a href="https://www.mir.de/">MIR MEDIA</a>, Köln, Deutschland',
       date: '07.2015 - 06.2016',
-      position: 'Software Developer',
+      position: 'Softwareentwickler',
       badges: ['python', 'Django'],
       content: 'Backend-Entwicklung von Websites für verschiedene Kunden so wie z.B. Elbphilarmonie and Lucerne Festival'
     },
     // comment below to have PDF version 2 pages 
     {
-      title: 'Induux GmbH, Stuttgart, Germany',
+      title: 'Induux GmbH, Stuttgart, Deutschland',
       date: '11.2014 - 03.2015',
-      position: 'Software Developer',
+      position: 'Softwareentwickler',
       badges: ['python', 'Django'],
       content: 'Backend-Entwicklung'
     },
     {
-      title: 'Elektrobit Automotive GmbH, Böblingen, Germany',
+      title: 'Elektrobit Automotive GmbH, Böblingen, Deutschland',
       date: '11.2013 - 05.2014',
       position: 'Werkstudent',
       badges: ['python', 'Django', 'Selenium', 'REST API'],
       content: ''
     },
     {
-      title: 'Elektrobit Automotive GmbH, Böblingen, Germany',
+      title: 'Elektrobit Automotive GmbH, Böblingen, Deutschland',
       date: '04.2013 - 09.2013',
       position: 'Praktikant',
       badges: ['python', 'software versioning', 'Unit testing', 'GUI development', 'CAN Bus', 'CANoe'],
       content: ''
     },
     {
-      title: 'PTV AG, Stuttgart, Germany',
+      title: 'PTV AG, Stuttgart, Deutschland',
       date: '11.2012 - 03.2013',
       position: 'Werkstudent',
       badges: ['C++', 'Visualization', 'The Visualization ToolKit'],
@@ -138,7 +138,7 @@ Thema: Entwurf und Implementierung eines Servers auf einem Grafikprozessor für 
 `
     },
     {
-      title: 'ESIGELEC, Rouen, France',
+      title: 'ESIGELEC, Rouen, Frankreich',
       date: '09.2009 - 02.2010',
       content: `
 Austauschsemester
