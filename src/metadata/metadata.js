@@ -124,11 +124,9 @@ M.Sc. in Information Technology
 Topic: Realization of incremental learning for automated identification using the example of products recognition
 
 - Incremental Learning, Machine Learning
-- Classification, Support Vector Machines (SVM)
-- Learn++.NC based on SVM
-- Learn++ based on SVM
+- Classification with Support Vector Machines (SVM)
+- Learn++ and Learn++.NC based on SVM
 - Python, scikit-learn ML library
-- Eclipse, LabVIEW
 `
     },
     {
@@ -140,8 +138,7 @@ B.Sc. in Electronics Engineering (graduation in honor list)
 ##### Bachelor Thesis at Embedded System Design Laboratory
 Topic: Design and implementation of a server on a graphic processor for secure RFID systems
 
-- Parallel programming
-- CUDA, GPU programming
+- Parallel programming with CUDA
 - RFID protocol servers
 
 ##### Extracurricular Activities

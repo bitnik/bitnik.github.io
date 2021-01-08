@@ -110,11 +110,9 @@ M.Sc. in Informatik
 Thema: Realisierung von "Incremental Learning" für automatisierte identifizierung am Beispiel von Produkterkennung
 
 - Incremental Learning, Machine Learning
-- Classification, Support Vector Machines (SVM)
-- Learn++.NC based on SVM
-- Learn++ based on SVM
+- Classification with Support Vector Machines (SVM)
+- Learn++ and Learn++.NC based on SVM
 - Python, scikit-learn ML library
-- Eclipse, LabVIEW
 `
     },
     {
@@ -126,8 +124,7 @@ B.Sc. in Elektrotechnik (Abschluss in Ehrenliste)
 ##### Bachelorarbeit am Designlabor für eingebettete Systeme
 Thema: Entwurf und Implementierung eines Servers auf einem Grafikprozessor für sichere RFID-Systeme
 
-- Parallel programming
-- CUDA, GPU programming
+- Parallel programming with CUDA
 - RFID protocol servers
 
 ##### Extrakurrikulare Aktivitäten
