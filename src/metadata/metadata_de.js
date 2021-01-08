@@ -21,7 +21,7 @@
       title: '<a href="https://www.gesis.org/en/home">GESIS – Leibniz-Institut für Sozialwissenschaften</a>, Köln, Deutschland',
       date: '10.2017 - 12.2020',
       position: 'Lead-Software-Entwickler',
-      badges: ['python', 'JupyterHub', 'BinderHub', 'repo2docker', 'Docker', 'Kubernetes', 'Helm', 'NFS Provisioner', 'GitLab CI/CD', 'Prometheus', 'Grafana', 'Elastic Stack'],
+      badges: ['python', 'JupyterHub', 'BinderHub', 'repo2docker', 'nginx', 'Docker', 'Kubernetes', 'Helm', 'NFS Provisioner', 'GitLab CI/CD', 'Prometheus', 'Grafana', 'Elastic Stack'],
       content: `
 **Projekt:** [GESIS Notebooks](https://notebooks.gesis.org/about/)
 
@@ -45,7 +45,7 @@ Referenz: [Dr. Arnim Bleier](https://www.gesis.org/institut/mitarbeiterverzeichn
       title: '<a href="https://www.gesis.org/en/home">GESIS – Leibniz-Institut für Sozialwissenschaften</a>, Köln, Deutschland',
       date: '07.2016 - 09.2017',
       position: 'Lead-Software-Entwickler',
-      badges: ['python', 'Django', 'Gunicorn', 'REST API', 'Swagger', 'Celery', 'RabbitMQ', 'RabbitMQ', 'WikiPedia'],
+      badges: ['python', 'Django', 'Gunicorn', 'REST API', 'Swagger', 'PostgreSQL', 'Celery', 'RabbitMQ', 'WikiPedia'],
       content: `
 **Projekt:** [WikiWho](https://github.com/wikiwho/WikiWho)
 
@@ -152,19 +152,22 @@ Austauschsemester
   ],
   skills: [
     ['Python', '8/10'],
-    ['JupyterHub', '++++'],
-    ['BinderHub', '++++'],
+    //['JupyterHub', '++++'],
+    //['BinderHub', '++++'],
     //['git', '++++'],
-    ['Django', '++++'],
     //['Flask', '++++'],
-    ['Docker', '++++'],
-    ['Kubernetes', '+++'],
+    ['Containerization', '++++'],
+    ['Container Orchestration', '+++'],
+    ['DevOps Engineering', ''],
+    ['Site Reliability Engineering', ''],
+    ['CI/CD Engineering', ''],
     //['Helm', '+++'],
-    ['Linux (Debian)', '++++'],
-    ['PostgreSQL', '++++'],
+    ['Linux Ecosystem', '++++'],
+    ['Relational Databases', '++++'],
     //['JavaScript', '++++'],
     //['Node.js', '++++'],
-    ['nginx', '+++'],
+    ['Web Servers', '+++'],
+    ['Django', '++++'],
     //['Gunicorn', '++++'],
     //['GitLab CI/CD', '++++'],
     //['Elastic Stack', '']

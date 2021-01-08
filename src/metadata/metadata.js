@@ -30,7 +30,7 @@
       title: '<a href="https://www.gesis.org/en/home">GESIS – Leibniz Institute for the Social Sciences</a>, Cologne, Germany',
       date: '10.2017 - 12.2020',
       position: 'Lead Software Developer',
-      badges: ['python', 'JupyterHub', 'BinderHub', 'repo2docker', 'Docker', 'Kubernetes', 'Helm', 'NFS Provisioner', 'GitLab CI/CD', 'Prometheus', 'Grafana', 'Elastic Stack'],
+      badges: ['python', 'JupyterHub', 'BinderHub', 'repo2docker', 'nginx', 'Docker', 'Kubernetes', 'Helm', 'NFS Provisioner', 'GitLab CI/CD', 'Prometheus', 'Grafana', 'Elastic Stack'],
       content: `
 **Project:** [GESIS Notebooks](https://notebooks.gesis.org/about/) is a free and hosted service for running Jupyter Notebooks requiring no installation, 
 which enable you to get started quickly with your research ideas, prototyping your data science projects, 
@@ -56,7 +56,7 @@ Reference: [Dr. Arnim Bleier](https://www.gesis.org/en/institute/staff/person/ar
       title: '<a href="https://www.gesis.org/en/home">GESIS – Leibniz Institute for the Social Sciences</a>, Cologne, Germany',
       date: '07.2016 - 09.2017',
       position: 'Lead Software Developer',
-      badges: ['python', 'Django', 'Gunicorn', 'REST API', 'Swagger', 'Celery', 'RabbitMQ', 'WikiPedia'],
+      badges: ['python', 'Django', 'Gunicorn', 'REST API', 'Swagger', 'PostgreSQL', 'Celery', 'RabbitMQ', 'WikiPedia'],
       content: `
 **Project:** [WikiWho](https://github.com/wikiwho/WikiWho) is an algorithm to parse 
 the complete set of all historical revisions of a revisioned Wiki document 
@@ -166,19 +166,22 @@ Exchange Semester
   ],
   skills: [
     ['Python', '8/10'],
-    ['JupyterHub', '++++'],
-    ['BinderHub', '++++'],
+    //['JupyterHub', '++++'],
+    //['BinderHub', '++++'],
     //['git', '++++'],
-    ['Django', '++++'],
     //['Flask', '++++'],
-    ['Docker', '++++'],
-    ['Kubernetes', '+++'],
+    ['Containerization', '++++'],
+    ['Container Orchestration', '+++'],
+    ['DevOps Engineering', ''],
+    ['Site Reliability Engr.', ''],
+    ['CI/CD Engineering', ''],
     //['Helm', '+++'],
-    ['Linux (Debian)', '++++'],
-    ['PostgreSQL', '++++'],
+    ['Linux Ecosystem', '++++'],
+    ['Relational Databases', '++++'],
     //['JavaScript', '++++'],
     //['Node.js', '++++'],
-    ['nginx', '+++'],
+    ['Web Servers', '+++'],
+    ['Django', '++++'],
     //['Gunicorn', '++++'],
     //['GitLab CI/CD', '++++'],
     //['Elastic Stack', '']
