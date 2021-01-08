@@ -1,14 +1,14 @@
  module.exports = {
   name: 'Kenan Erdoğan',
   title: 'Software-Ingenieur',
-  baseUrl: 'http://bitnik.xyz/cv.html',
+  baseUrl: 'https://bitnik.xyz/cv_de.html',
   photo: 'KenanErdogan.jpg',
   facts: {
     'Residence': '<a class="link-soft-purple" href="https://goo.gl/maps/eUu9rBUPwRS9A9Wb6"><i class="fas fa-home fa-custom"></i>Köln, DE</a>',
     'Email': '<a class="link-soft-purple" href="mailto:kenanerdogan@gmail.com"><i class="fas fa-envelope fa-custom"></i>kenanerdogan@gmail.com</a>',
     'Phone': '<a class="link-soft-purple"  href="tel:+4917647102212"><i class="fas fa-phone fa-custom"></i>+49 176 471 02212</a>',
-    'Homepage': `<a class="link-soft-purple" href="http://bitnik.xyz">
-                  <span class="print"><i class="fas fa-globe fa-custom"></i>http://bitnik.xyz</span>
+    'Homepage': `<a class="link-soft-purple" href="https://www.bitnik.xyz">
+                  <span class="print"><i class="fas fa-globe fa-custom"></i>https://bitnik.xyz</span>
                   <span class="screen"><i class="fas fa-globe fa-custom"></i>bitnik.xyz</span>
                 </a>`,
     'GitHub': '<a class="link-soft-purple" href="https://github.com/bitnik"><i class="fab fa-github fa-custom"></i>bitnik</a>',
