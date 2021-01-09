@@ -21,10 +21,11 @@ fs.copySync(srcDir + '/assets', outputDir);
 handlebars.registerHelper('markdown', markdownHelper);
 const sourceIndex = fs.readFileSync(srcDir + '/templates/index.html', 'utf-8');
 const templateIndex = handlebars.compile(sourceIndex);
-const htmlIndex = templateIndex({
-  ...templateData
-});
-fs.writeFileSync(outputDir + '/index.html', htmlIndex);
+fs.writeFileSync(outputDir + '/index.html', templateIndex({...templateData}));
+// 404.html
+const source404 = fs.readFileSync(srcDir + '/templates/404.html', 'utf-8');
+const template404 = handlebars.compile(source404);
+fs.writeFileSync(outputDir + '/404.html', template404({...templateData}));
 const lastUpdated = dayjs().format('D.M.YYYY');
 // cv.html
 const sourceCv = fs.readFileSync(srcDir + '/templates/cv.html', 'utf-8');
