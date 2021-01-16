@@ -16,38 +16,25 @@ fs.emptyDirSync(outputDir);
 // Copy assets
 fs.copySync(srcDir + '/assets', outputDir);
 
-// Build HTML
-// index.html
+// Build HTML templates
 handlebars.registerHelper('markdown', markdownHelper);
-const sourceIndex = fs.readFileSync(srcDir + '/templates/index.html', 'utf-8');
-const templateIndex = handlebars.compile(sourceIndex);
-fs.writeFileSync(outputDir + '/index.html', templateIndex({...templateData}));
-// 404.html
-const source404 = fs.readFileSync(srcDir + '/templates/404.html', 'utf-8');
-const template404 = handlebars.compile(source404);
-fs.writeFileSync(outputDir + '/404.html', template404({...templateData}));
 const lastUpdated = dayjs().format('D.M.YYYY');
-// cv.html
-const sourceCv = fs.readFileSync(srcDir + '/templates/cv.html', 'utf-8');
-const templateCv = handlebars.compile(sourceCv);
 const pdfFileName = `${getSlug(templateData.name)}-${getSlug(templateData.title)}.pdf`;
-const htmlCv = templateCv({
-  ...templateData,
-  pdfFileName: pdfFileName,
-  updated: lastUpdated,
-});
-fs.writeFileSync(outputDir + '/cv.html', htmlCv);
-// cv_de.html
-const sourceCvDe = fs.readFileSync(srcDir + '/templates/cv_de.html', 'utf-8');
-const templateCvDe = handlebars.compile(sourceCvDe);
 const pdfFileNameDe = `${getSlug(templateDataDe.name)}-${getSlug(templateDataDe.title)}-de.pdf`;
-const htmlCvDe = templateCvDe({
-  ...templateDataDe,
-  pdfFileName: pdfFileNameDe,
-  updated: lastUpdated,
-});
-fs.writeFileSync(outputDir + '/cv_de.html', htmlCvDe);
+const templates = {
+  'index.html': {...templateData},
+  '404.html': {...templateData},
+  'cv.html':  {...templateData, updated: lastUpdated, pdfFileName: pdfFileName},
+  'cv_de.html':  {...templateDataDe, updated: lastUpdated, pdfFileName: pdfFileNameDe},
+}
+for (const [fileName, extTemplateData] of Object.entries(templates)) {
+  const source = fs.readFileSync(srcDir + '/templates/' + fileName, 'utf-8');
+  const template = handlebars.compile(source);
+  const html = template(extTemplateData);
+  fs.writeFileSync(outputDir + '/' + fileName, html);
+}
 
+// Build PDFs
 buildPdf = async function (inputFile, outputFile) {
   // const browser = await Puppeteer.launch();
   // add path of chromium (which chromium)
