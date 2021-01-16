@@ -2,10 +2,11 @@
   "name": "cv-template",
   "description": "The Curriculum Vitae Template",
   "scripts": {
+    "//": "scripts: https://docs.npmjs.com/cli/v6/using-npm/scripts + chokidar: https://www.npmjs.com/package/chokidar-cli + live-server : https://www.npmjs.com/package/live-server",
     "build": "node src/build.js",
-    "watch": "chokidar '**/*' -i 'dist/**/*' -c 'npm run build'",
+    "watch": "chokidar \"src/**/*\" --command \"npm run build\"",
     "prestart": "npm run build",
-    "start": "npm run watch & live-server dist"
+    "start": "npm run watch & live-server dist --port=8888"
   },
   "repository": {
     "type": "git",
