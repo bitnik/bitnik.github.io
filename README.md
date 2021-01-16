@@ -2,7 +2,7 @@ Based on [sneas/cv-template](https://github.com/sneas/cv-template) :purple_heart
 
 ## Local development notes
 
-```
+```bash
 # use Node Version Manager
 # https://github.com/nvm-sh/nvm#installing-and-updating
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
@@ -25,6 +25,8 @@ nvm use node
 # or install specific version
 # to list available versions
 nvm ls-remote
+# List installed versions, matching a given <version> if provided
+nvm ls [<version>]                          
 # install v12.20.0
 nvm install 12.20.0
 # use v12.20.0
@@ -34,11 +36,26 @@ nvm version
 node -v
 npm -v
 
+# use --production flag to install only dependencies, not devDependencies
 npm install
-npm run build
+# npm help list
+npm list --depth=0
+npm list
+# List packages in the global install prefix instead of in the current project.
+npm list --global
+npm list --global --depth=1
 
+# npm help build
+# This  runs  an arbitrary command from a package's "scripts" object.  If no "command" is provided (`npm run`), it will list the available scripts.
+npm run
+npm run build  # same as `node src/build.js` and `npm run prestart`, check package.json
+
+# This runs an arbitrary command specified in the package's "start" property of its "scripts" object (in package.json). If no "start" property is specified on the "scripts" object, it will run node server.js.
+# before `npm start`, `npm run prestart` is always executed, so we actually didn't need to run `npm run build`
 npm start
 
+# to clean up
+rm -rf dist node_modules
 ```
 
 -------
