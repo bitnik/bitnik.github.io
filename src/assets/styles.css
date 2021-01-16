@@ -23,10 +23,6 @@
     .card {
         border: none;
     }
-
-    .donkey {
-        pointer-events: none;
-    }
 }
 
 @media print {
