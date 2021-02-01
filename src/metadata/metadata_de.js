@@ -21,7 +21,7 @@
       title: '<a href="https://www.gesis.org/en/home">GESIS – Leibniz-Institut für Sozialwissenschaften</a>, Köln, Deutschland',
       date: '10.2017 - 12.2020',
       position: 'Lead-Software-Entwickler',
-      badges: ['python', 'JupyterHub', 'BinderHub', 'repo2docker', 'nginx', 'Docker', 'Kubernetes', 'Helm', 'NFS Provisioner', 'GitLab CI/CD', 'Prometheus', 'Grafana', 'Elastic Stack'],
+      badges: ['python', 'JupyterHub', 'BinderHub', 'Node.js', 'npm', 'Webpack', 'repo2docker', 'nginx', 'Docker', 'Kubernetes', 'Helm', 'NFS Provisioner', 'GitLab CI/CD', 'Prometheus', 'Grafana', 'Elastic Stack'],
       content: `
 **Projekt:** [GESIS Notebooks](https://notebooks.gesis.org/about/)
 
@@ -148,14 +148,15 @@ Austauschsemester
     // }
   ],
   skills: [
-    ['Python', '8/10'],
+    // ['Python', '8/10'],
+    ['Full Stack Development', ''],
+    ['DevOps Engineering', ''],
     //['JupyterHub', '++++'],
     //['BinderHub', '++++'],
     //['git', '++++'],
     //['Flask', '++++'],
     ['Containerization', '++++'],
     ['Container Orchestration', '+++'],
-    ['DevOps Engineering', ''],
     ['Site Reliability Engineering', ''],
     ['CI/CD Engineering', ''],
     //['Helm', '+++'],
@@ -164,7 +165,7 @@ Austauschsemester
     //['JavaScript', '++++'],
     //['Node.js', '++++'],
     ['Web Servers', '+++'],
-    ['Django', '++++'],
+    // ['Django', '++++'],
     //['Gunicorn', '++++'],
     //['GitLab CI/CD', '++++'],
     //['Elastic Stack', '']

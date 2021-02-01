@@ -30,7 +30,7 @@
       title: '<a href="https://www.gesis.org/en/home">GESIS – Leibniz Institute for the Social Sciences</a>, Cologne, Germany',
       date: '10.2017 - 12.2020',
       position: 'Lead Software Developer',
-      badges: ['python', 'JupyterHub', 'BinderHub', 'repo2docker', 'nginx', 'Docker', 'Kubernetes', 'Helm', 'NFS Provisioner', 'GitLab CI/CD', 'Prometheus', 'Grafana', 'Elastic Stack'],
+      badges: ['python', 'JupyterHub', 'BinderHub', 'Node.js', 'npm', 'Webpack', 'repo2docker', 'nginx', 'Docker', 'Kubernetes', 'Helm', 'NFS Provisioner', 'GitLab CI/CD', 'Prometheus', 'Grafana', 'Elastic Stack'],
       content: `
 **Project:** [GESIS Notebooks](https://notebooks.gesis.org/about/) is a free and hosted service for running Jupyter Notebooks requiring no installation, 
 which enable you to get started quickly with your research ideas, prototyping your data science projects, 
@@ -162,14 +162,15 @@ Exchange Semester
     // }
   ],
   skills: [
-    ['Python', '8/10'],
+    // ['Python', '8/10'],
+    ['Full Stack Development', ''],
+    ['DevOps Engineering', ''],
     //['JupyterHub', '++++'],
     //['BinderHub', '++++'],
     //['git', '++++'],
     //['Flask', '++++'],
     ['Containerization', '++++'],
     ['Container Orchestration', '+++'],
-    ['DevOps Engineering', ''],
     ['Site Reliability Engr.', ''],
     ['CI/CD Engineering', ''],
     //['Helm', '+++'],
@@ -178,7 +179,7 @@ Exchange Semester
     //['JavaScript', '++++'],
     //['Node.js', '++++'],
     ['Web Servers', '+++'],
-    ['Django', '++++'],
+    // ['Django', '++++'],
     //['Gunicorn', '++++'],
     //['GitLab CI/CD', '++++'],
     //['Elastic Stack', '']
