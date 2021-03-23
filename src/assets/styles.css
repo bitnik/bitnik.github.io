@@ -87,6 +87,9 @@
         color: #ffffff;
         background-color: #8c7291;
     }
+    .badges {
+        margin-bottom: 10px;
+    }
     .card {
         /*background-color: #c2d0bd;*/
         background-color: #f0f9f5;

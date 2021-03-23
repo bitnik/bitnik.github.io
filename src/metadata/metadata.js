@@ -56,7 +56,7 @@ Reference: [Dr. Arnim Bleier](https://www.gesis.org/en/institute/staff/person/ar
       title: '<a href="https://www.gesis.org/en/home">GESIS – Leibniz Institute for the Social Sciences</a>, Cologne, Germany',
       date: '07.2016 - 09.2017',
       position: 'Lead Software Developer',
-      badges: ['python', 'Django', 'Gunicorn', 'REST API', 'Swagger', 'PostgreSQL', 'Celery', 'RabbitMQ', 'WikiPedia'],
+      badges: ['python', 'Django', 'Gunicorn', 'nginx', 'REST API', 'OpenAPI Specification', 'Swagger', 'PostgreSQL', 'Celery', 'RabbitMQ', 'WikiPedia'],
       content: `
 **Project:** [WikiWho](https://github.com/wikiwho/WikiWho) is an algorithm to parse 
 the complete set of all historical revisions of a revisioned Wiki document 
@@ -67,7 +67,8 @@ This means that for every token, its individual add/removal/reintroduction histo
 
 - Speed and accuracy improvement of the existing core WikiWho algorithm
 - Realisation of [the website, the REST API and a web-based API interface](https://www.wikiwho.net/)
-- Realisation of a listener for Wikipedia events, connected to a task queue
+- Parsing Wikipedia archives for various languages and applying WikiWho on them to generate base data for APIs
+- Realisation of an event listener for Wikipedia events, connected to a task queue
 - Update and improvement of [the WhoColor server and user tools](https://github.com/wikiwho/WhoColor)
 - Data analyses of authorship, persistence, conflict and editor interactions
 - Generation of a [data set](https://doi.org/10.5281/zenodo.834557) for the entire English Wikipedia: 
@@ -111,6 +112,25 @@ Reference: [Dr. Fabian Flöck](https://www.gesis.org/en/institute/staff/person/f
       position: 'Student Employee',
       badges: ['C++', 'Visualization', 'The Visualization ToolKit'],
       content: ''
+    },
+  ],
+  projects: [
+    {
+      title: 'Binder Launches',
+      badges: ['React', 'Material-UI', 'Express.js', 'Node.js', 'npm', 'python', 'TimescaleDB', 'Docker', 'Helm chart', 'GitHub Actions'],
+      content: `
+[Binder launches repo](https://github.com/bitnik/binder_launches) contains
+
+- a script to parse binder launch events and save into TimescaleDB
+- a frontend to visualize launches using React with Material-UI which is backed by Express.js
+`
+    },
+    {
+      title: 'Curriculum Vitae',
+      badges: ['Node.js', 'npm', 'GitHub Actions', 'GitHub Pages'],
+      content: `
+[https://github.com/bitnik/bitnik.xyz](https://github.com/bitnik/bitnik.xyz)
+`
     },
   ],
   education: [

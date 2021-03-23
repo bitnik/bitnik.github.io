@@ -45,7 +45,7 @@ Referenz: [Dr. Arnim Bleier](https://www.gesis.org/institut/mitarbeiterverzeichn
       title: '<a href="https://www.gesis.org/en/home">GESIS – Leibniz-Institut für Sozialwissenschaften</a>, Köln, Deutschland',
       date: '07.2016 - 09.2017',
       position: 'Lead-Software-Entwickler',
-      badges: ['python', 'Django', 'Gunicorn', 'REST API', 'Swagger', 'PostgreSQL', 'Celery', 'RabbitMQ', 'WikiPedia'],
+      badges: ['python', 'Django', 'Gunicorn', 'nginx', 'REST API', 'OpenAPI Specification', 'Swagger', 'PostgreSQL', 'Celery', 'RabbitMQ', 'WikiPedia'],
       content: `
 **Projekt:** [WikiWho](https://github.com/wikiwho/WikiWho)
 
@@ -97,6 +97,25 @@ Referenz: [Dr. Fabian Flöck](https://www.gesis.org/institut/mitarbeiterverzeich
       position: 'Werkstudent',
       badges: ['C++', 'Visualization', 'The Visualization ToolKit'],
       content: ''
+    },
+  ],
+  projects: [
+    {
+      title: 'Binder Launches',
+      badges: ['React', 'Material-UI', 'Express.js', 'Node.js', 'npm', 'python', 'TimescaleDB', 'Docker', 'Helm chart', 'GitHub Actions'],
+      content: `
+[Binder launches repo](https://github.com/bitnik/binder_launches) contains
+
+- a script to parse binder launch events and save into TimescaleDB
+- a frontend to visualize launches using React with Material-UI which is backed by Express.js
+`
+    },
+    {
+      title: 'Curriculum Vitae',
+      badges: ['Node.js', 'npm', 'GitHub Actions', 'GitHub Pages'],
+      content: `
+[https://github.com/bitnik/bitnik.xyz](https://github.com/bitnik/bitnik.xyz)
+`
     },
   ],
   education: [

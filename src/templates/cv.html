@@ -65,7 +65,7 @@
             {{#if content}}
             {{{markdown content }}}
             {{/if}}
-            <div class="">
+            <div>
                 {{#each badges }}
                 <span class="badge">{{ this }}</span>
                 {{/each}}
@@ -73,6 +73,23 @@
         </div>
     </div>
     {{!--<div class="print mb-1"></div>--}}
+    {{/each}}
+
+    <h2>Projects</h2>
+    {{#each projects}}
+    <div class="card">
+        <div class="card-body">
+            <h4>{{ title }}</h4>
+            {{#if content}}
+            {{{markdown content }}}
+            {{/if}}
+            <div>
+                {{#each badges }}
+                <span class="badge">{{ this }}</span>
+                {{/each}}
+            </div>
+        </div>
+    </div>
     {{/each}}
 
     <h2>Higher Education</h2>
