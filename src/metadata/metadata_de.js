@@ -110,13 +110,13 @@ Referenz: [Dr. Fabian Flöck](https://www.gesis.org/institut/mitarbeiterverzeich
 - a frontend to visualize launches using React with Material-UI which is backed by Express.js
 `
     },
-    {
-      title: 'Curriculum Vitae',
-      badges: ['Node.js', 'npm', 'GitHub Actions', 'GitHub Pages'],
-      content: `
-[https://github.com/bitnik/bitnik.xyz](https://github.com/bitnik/bitnik.xyz)
-`
-    },
+//     {
+//       title: 'Curriculum Vitae',
+//       badges: ['Node.js', 'npm', 'GitHub Actions', 'GitHub Pages'],
+//       content: `
+// [https://github.com/bitnik/bitnik.xyz](https://github.com/bitnik/bitnik.xyz)
+// `
+//     },
   ],
   education: [
     {

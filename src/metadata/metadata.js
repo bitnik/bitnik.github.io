@@ -33,7 +33,7 @@
       badges: ['python', 'JupyterHub', 'BinderHub', 'Node.js', 'npm', 'Webpack', 'repo2docker', 'nginx', 'Docker', 'Kubernetes', 'Helm', 'NFS Provisioner', 'GitLab CI/CD', 'Prometheus', 'Grafana', 'Elastic Stack'],
       content: `
 **Project:** [GESIS Notebooks](https://notebooks.gesis.org/about/) is a free and hosted service for running Jupyter Notebooks requiring no installation, 
-which enable you to get started quickly with your research ideas, prototyping your data science projects, 
+which enables users to get started quickly with their research ideas, prototyping their data science projects, 
 or learning to program languages such as R, Python or Julia.
 
 **Responsibilities:**
@@ -125,13 +125,13 @@ Reference: [Dr. Fabian Flöck](https://www.gesis.org/en/institute/staff/person/f
 - a frontend to visualize launches using React with Material-UI which is backed by Express.js
 `
     },
-    {
-      title: 'Curriculum Vitae',
-      badges: ['Node.js', 'npm', 'GitHub Actions', 'GitHub Pages'],
-      content: `
-[https://github.com/bitnik/bitnik.xyz](https://github.com/bitnik/bitnik.xyz)
-`
-    },
+//     {
+//       title: 'Curriculum Vitae',
+//       badges: ['Node.js', 'npm', 'GitHub Actions', 'GitHub Pages'],
+//       content: `
+// [https://github.com/bitnik/bitnik.xyz](https://github.com/bitnik/bitnik.xyz)
+// `
+//     },
   ],
   education: [
     {
