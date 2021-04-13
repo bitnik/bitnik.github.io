@@ -14,7 +14,7 @@
     'GitHub': '<a class="link-soft-purple" href="https://github.com/bitnik"><i class="fab fa-github fa-custom"></i>bitnik</a>',
     'LinkedIn': '<a class="link-soft-purple" href="https://www.linkedin.com/in/kenanerdogan"><i class="fab fa-linkedin fa-custom"></i>kenanerdogan</a>',
     'Xing': '<a class="link-soft-purple" href="https://www.xing.com/profile/Kenan_Erdogan12"><i class="fab fa-xing-square fa-custom"></i>Kenan_Erdogan12</a>',
-    'Birth': '<span class="color-soft-purple"><i class="fas fa-birthday-cake fa-custom"></i>24.05.1988 in Istanbul</span>',
+    'Birth': '<span class="color-soft-purple"><i class="fas fa-birthday-cake fa-custom"></i>1988 in Istanbul</span>',
   },
   experiences: [
     {
