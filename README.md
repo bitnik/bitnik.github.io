@@ -56,6 +56,7 @@ npm start
 
 # to clean up
 rm -rf dist node_modules
+
 ```
 
 -------
