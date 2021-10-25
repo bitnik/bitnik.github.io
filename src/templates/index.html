@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, nofollow">
+    <title>{{ name }}</title>
+    <meta property="og:title" content="{{ name }}">
+    <meta property="og:url" content="https://www.bitnik.xyz">
+    <meta name="twitter:card" content="summary">
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-color-green">
+    <div class="container mt-5">
+        <div class="row justify-content-center align-items-center">
+            <div class="offset-xl-2 col-xl-4 offset-lg-2 col-lg-4 col-md-12 col-sm-12 col-12 mb-4">
+                <img class="rounded float-left img-fluid donkey" src="{{ picture }}" alt="a donkey by john emms" title="A donkey by John Emms">
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm- col-12 mb-4">
+                <h1 class="color-purple">{{ name }}</h1>
+                {{#each info}}
+                <span class="mb-1 mx-1">{{{ this }}}</span>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</body>
+</html>

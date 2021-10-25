@@ -1,0 +1,30 @@
+name: Publish to GH Pages
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+    # https://github.com/actions/checkout
+    - name: Checkout
+      uses: actions/checkout@v2
+    # https://github.com/actions/setup-node
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+    # use --production to install only dependencies, not devDependencies
+    - name: Install and Build
+      run: |
+        npm install --production
+        npm run build
+    # https://github.com/JamesIves/github-pages-deploy-action
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        # This is the branch you wish to deploy to
+        BRANCH: gh-pages
+        # The folder in your repository that you want to deploy.
+        FOLDER: dist
