@@ -2,7 +2,6 @@ const handlebars = require('handlebars');
 const fs = require('fs-extra');
 const markdownHelper = require('./utils/helpers/markdown');
 const templateData = require('./metadata/metadata');
-const templateDataDe = require('./metadata/metadata_de');
 const Puppeteer = require('puppeteer');
 const getSlug = require('speakingurl');
 const dayjs = require('dayjs');
@@ -20,12 +19,10 @@ fs.copySync(srcDir + '/assets', outputDir);
 handlebars.registerHelper('markdown', markdownHelper);
 const lastUpdated = dayjs().format('D.M.YYYY');
 const pdfFileName = `${getSlug(templateData.name)}-${getSlug(templateData.title)}.pdf`;
-const pdfFileNameDe = `${getSlug(templateDataDe.name)}-${getSlug(templateDataDe.title)}-de.pdf`;
 const templates = {
   'index.html': {...templateData},
   '404.html': {...templateData},
   'cv.html':  {...templateData, updated: lastUpdated, pdfFileName: pdfFileName},
-  'cv_de.html':  {...templateDataDe, updated: lastUpdated, pdfFileName: pdfFileNameDe},
 }
 for (const [fileName, extTemplateData] of Object.entries(templates)) {
   const source = fs.readFileSync(srcDir + '/templates/' + fileName, 'utf-8');
@@ -61,4 +58,3 @@ buildPdf = async function (inputFile, outputFile) {
 //console.log(`${outputDir}/${pdfFileName}`);
 // Build PDF
 buildPdf(`${outputDir}/cv.html`, `${outputDir}/${pdfFileName}`);
-buildPdf(`${outputDir}/cv_de.html`, `${outputDir}/${pdfFileNameDe}`);
