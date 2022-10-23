@@ -1,4 +1,4 @@
- module.exports = {
+module.exports = {
   name: 'Kenan Erdoğan',
   title: 'Software Engineer',
   baseUrl: 'https://bitnik.xyz/cv.html',
@@ -11,7 +11,7 @@
     // 'Xing': '<a class="link-purple" href="https://www.xing.com/profile/Kenan_Erdogan12"><i class="fab fa-xing-square fa-2x"></i></a>',
     //'CV': '<!--a class="link-purple" href="cv.html"><i class="far fa-file fa-2x" title="CV"></i></a-->',
     //'CV DE': '<!--a class="link-purple" href="cv.html"><i class="far fa-file fa-2x" title="CV (in German)"></i></a-->',
-    },
+  },
   facts: {
     'Residence': '<a class="link-soft-purple" href="https://goo.gl/maps/eUu9rBUPwRS9A9Wb6"><i class="fas fa-home fa-custom"></i>Cologne, DE</a>',
     'Email': '<a class="link-soft-purple" href="mailto:kenanerdogan@gmail.com"><i class="fas fa-envelope fa-custom"></i>kenanerdogan@gmail.com</a>',
@@ -24,12 +24,40 @@
                   <span class="screen"><i class="fas fa-globe fa-custom"></i>bitnik.xyz</span>
                 </a>`,
   },
+  skills: [
+    'DevOps Engineering',
+    'Full Stack Development',
+    'Containerization',
+    'Container Orchestration',
+    'Site Reliability Engr.',
+    'CI/CD Engineering',
+    'Linux Ecosystem',
+    'Relational Databases',
+    'Web Servers',
+  ],
   experiences: [
+    {
+      title: '<a href="https://www.next-kraftwerke.de/">Next Kraftwerke GmbH</a>, Cologne, Germany',
+      date: '05.2021 - current',
+      position: 'Kubernetes Engineer',
+      badges: ['Kubernetes', 'RKE', 'VMware', 'Terraform', 'Ansible', 'GitLab CI', 'Argo CD', 'Nexus', 'Prometheus & Loki Stack', 'Kyverno', 'Renovate', 'Kanban', 'Infrastructure-as-a-code'],
+      content: `
+**Project:** Setup secure and reliable kubernetes clusters on-premises in higly regulated and secure environment.
+
+**Responsibilities:**
+
+- Development of K8s clusters as IaC
+- Implementing tests
+- Collaborating with developers to better understand their needs
+- Hosting daily meetings regularly
+- Prepare learning sessions
+`
+    },
     {
       title: '<a href="https://www.gesis.org/en/home">GESIS – Leibniz Institute for the Social Sciences</a>, Cologne, Germany',
       date: '10.2017 - 12.2020',
       position: 'Lead Software Developer',
-      badges: ['python', 'JupyterHub', 'BinderHub', 'Node.js', 'npm', 'Webpack', 'repo2docker', 'nginx', 'Docker', 'Kubernetes', 'Helm', 'NFS Provisioner', 'GitLab CI/CD', 'Prometheus', 'Grafana', 'Elastic Stack'],
+      badges: ['python', 'JupyterHub', 'BinderHub', 'Docker', 'Kubernetes', 'Helm', 'NFS Provisioner', 'GitLab CI/CD', 'Prometheus', 'Grafana', 'Elastic Stack', 'Node.js', 'npm', 'Webpack', 'repo2docker', 'nginx'],
       content: `
 **Project:** [GESIS Notebooks](https://notebooks.gesis.org/about/) is a free and hosted service for running Jupyter Notebooks requiring no installation, 
 which enables users to get started quickly with their research ideas, prototyping their data science projects, 
@@ -42,7 +70,7 @@ or learning to program languages such as R, Python or Julia.
 - Deployment and maintenance of [a Persistent BinderHub](https://notebooks.gesis.org/) and [a public BinderHub](https://notebooks.gesis.org/binder/) 
 (GitHub repo: [gesiscss/orc](https://github.com/gesiscss/orc))
 - Automation of all aspects including image building, chart and configuration updates and deployments
-- Initial implementation of the [GESIS Login](https://login.gesis.org/) system
+- Initial implementation of the "GESIS Login" system (based on Keycloak)
 - Cooperation with open source projects (Jupyter projects) and contributing
 - Jupytercon 2020 Talk: ["A Persistent BinderHub: Democratizing Access to Computational Resources in the Social Sciences"](https://www.youtube.com/watch?v=dwidVhPtQT4)
 - Tutoring in ["Introduction to Python"](https://hf-graduiertenschule.uni-koeln.de/index.php?id=32102&L=1) workshop
@@ -73,7 +101,7 @@ This means that for every token, its individual add/removal/reintroduction histo
 - Generation of a [data set](https://doi.org/10.5281/zenodo.834557) for the entire English Wikipedia: 
 ["TokTrack: A Complete Token Provenance and Change Tracking Dataset for the English Wikipedia"](https://arxiv.org/abs/1703.08244)
 
-Reference: [Dr. Fabian Flöck](https://www.gesis.org/en/institute/staff/person/fabian.floeck)
+Reference: [Dr. Fabian Flöck](https://www.linkedin.com/in/fabian-fl%C3%B6ck-7689658/)
 `
     },
     {
@@ -124,13 +152,13 @@ Reference: [Dr. Fabian Flöck](https://www.gesis.org/en/institute/staff/person/f
 - a frontend to visualize launches using React with Material-UI which is backed by Express.js
 `
     },
-//     {
-//       title: 'Curriculum Vitae',
-//       badges: ['Node.js', 'npm', 'GitHub Actions', 'GitHub Pages'],
-//       content: `
-// [https://github.com/bitnik/bitnik.xyz](https://github.com/bitnik/bitnik.xyz)
-// `
-//     },
+    //     {
+    //       title: 'Curriculum Vitae',
+    //       badges: ['Node.js', 'npm', 'GitHub Actions', 'GitHub Pages'],
+    //       content: `
+    // [https://github.com/bitnik/bitnik.xyz](https://github.com/bitnik/bitnik.xyz)
+    // `
+    //     },
   ],
   education: [
     {
@@ -179,33 +207,6 @@ Exchange Semester
     //   date: '09.2002 - 06.2006',
     //   content: ''
     // }
-  ],
-  skills: [
-    // ['Python', '8/10'],
-    ['Full Stack Development', ''],
-    ['DevOps Engineering', ''],
-    //['JupyterHub', '++++'],
-    //['BinderHub', '++++'],
-    //['git', '++++'],
-    //['Flask', '++++'],
-    ['Containerization', '++++'],
-    ['Container Orchestration', '+++'],
-    ['Site Reliability Engr.', ''],
-    ['CI/CD Engineering', ''],
-    //['Helm', '+++'],
-    ['Linux Ecosystem', '++++'],
-    ['Relational Databases', '++++'],
-    //['JavaScript', '++++'],
-    //['Node.js', '++++'],
-    ['Web Servers', '+++'],
-    // ['Django', '++++'],
-    //['Gunicorn', '++++'],
-    //['GitLab CI/CD', '++++'],
-    //['Elastic Stack', '']
-    //['Memcached', '++++'],
-    //['Celery', '++++'],
-    //['RabbitMQ', '++++'],
-    //['vim', '++++'],
   ],
   languages: [
     ['Turkish', 'native'],
