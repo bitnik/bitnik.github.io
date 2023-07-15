@@ -42,7 +42,10 @@ buildPdf = async function (inputFile, outputFile) {
   // const browser = await Puppeteer.launch();
   // add path of chromium (which chromium)
   // TODO find a solution without --no-sandbox
-  const browser = await Puppeteer.launch({ args: ["--no-sandbox"] });
+  const browser = await Puppeteer.launch({
+    args: ["--no-sandbox"],
+    headless: "new",
+  });
   const page = await browser.newPage();
   await page.goto(`file://${inputFile}`, {
     waitUntil: "networkidle0",

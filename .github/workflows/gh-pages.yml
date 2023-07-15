@@ -13,7 +13,7 @@ jobs:
     # https://github.com/actions/setup-node
     - uses: actions/setup-node@v1
       with:
-        node-version: '12.x'
+        node-version: '18.x'
     # use --production to install only dependencies, not devDependencies
     - name: Install and Build
       run: |
