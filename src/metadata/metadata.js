@@ -45,6 +45,25 @@ module.exports = {
   ],
   experiences: [
     {
+      title: "Freelancing",
+      date: "01.2023 - current",
+      // position: "DevOps/Platform Engineer",
+      badges: [
+        "Kubernetes",
+        "Ansible",
+        "Helm Charts",
+        "GitLab CI",
+        "Prometheus Stack",
+        "Loki Stack",
+        "Grafana Alerts",
+        "Renovate",
+        "Infrastructure-as-a-code",
+      ],
+      content: `
+Providing support as DevOps/Platform engineer in various projects.
+`,
+    },
+    {
       title:
         '<a href="https://www.next-kraftwerke.de/">Next Kraftwerke GmbH</a>, Cologne, Germany',
       date: "05.2021 - current",
@@ -67,18 +86,18 @@ module.exports = {
         // "Infrastructure-as-a-code",
       ],
       content: `
-**Project:** Setup secure and reliable multi-tenant kubernetes clusters on-premises in higly regulated and secure environment.
+**Project:** Setting up secure and reliable multi-tenant kubernetes clusters on-premises in higly regulated and secure environments.
 
 **Responsibilities:**
 
 - Development of K8s clusters as IaC
 - Policy enforcement with Kyverno
-- Setup monitoring, alerting and logging with Prometheus and Loki stacks
+- Setting up monitoring, alerting and logging with Prometheus and Loki stacks
 - Implementing tests
-- Setup Renovate for automated dependency updates
+- Setting up Renovate for automated dependency updates
 - Collaborating with developers to better understand their needs
 - Hosting daily meetings regularly
-- Prepare learning sessions
+- Preparing learning sessions
 `,
     },
     {
