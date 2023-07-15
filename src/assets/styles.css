@@ -1,195 +1,202 @@
 /* https://www.tutorialspoint.com/css/css_printing.htm */
 @media screen, print {
-    .photo {
-        max-height: 150px;
-        border: 0 solid #fff;
-        border-radius: 100%;
-        box-shadow: 0 1px 1px rgba(0,0,0,.1);
-    }
+  .photo {
+    max-height: 150px;
+    border: 0 solid #fff;
+    border-radius: 100%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  }
 
-    .badge {
-        /* font-weight: normal; */
-        /* letter-spacing: 0.05rem; */
-        vertical-align: middle;
-        padding: 0.4em 0.5em;
-    }
+  .badge {
+    /* font-weight: normal; */
+    /* letter-spacing: 0.05rem; */
+    vertical-align: middle;
+    padding: 0.4em 0.5em;
+  }
 
-    a .fa-custom, span .fa-custom {
-        text-decoration: none !important;
-        margin-right: 5px;
-    }
+  a .fa-custom,
+  span .fa-custom {
+    text-decoration: none !important;
+    margin-right: 5px;
+  }
 
-    .card-body p {
-        margin-bottom: 0.5rem;
-    }
-    .card {
-        border: none;
-    }
+  .card-body p {
+    margin-bottom: 0.5rem;
+  }
+  .card {
+    border: none;
+  }
 }
 
 @media print {
-    .screen {
-        display: none;
-    }
+  .screen {
+    display: none;
+  }
 
-    body {
-        font-size: 19px;
-    }
+  body {
+    font-size: 19px;
+  }
 
-    .card {
-        margin-bottom: 0;
-    }
-    .card-body {
-        padding: 0;
-        margin-bottom: 1.5rem;
-    }
+  .card {
+    margin-bottom: 0;
+  }
+  .card-body {
+    padding: 0;
+    margin-bottom: 1.5rem;
+  }
 
-    .badge {
-        border: 0.07rem solid #000000;
-        color: #000000;
-        /*background-color: #f0f0f0;*/
-    }
+  .badge {
+    border: 0.07rem solid #000000;
+    color: #000000;
+    /*background-color: #f0f0f0;*/
+  }
 }
 
 @media not print {
-    body {
-        color: #111111;
-    }
-    .print {
-        display: none;
-    }
+  body {
+    color: #111111;
+  }
+  .print {
+    display: none;
+  }
 
-    .cv-info {
-        margin-bottom: 0.5rem;
-    }
+  .cv-info {
+    margin-bottom: 0.5rem;
+  }
 
-    .bg-color-soft-green {
-        /* https://www.colorhexa.com/99b090 */
-        /* background-color: #99b090; */
-        /* background-color: #e2f3eb; */
-        background-color: #f0f9f5;
-    }
-    .bg-color-green {
-        /* olive: https://clrs.cc/ */
-        background-color: #3d9970;
-    }
-    .color-purple, a.link-purple:link, a.link-purple:visited, a.link-purple:active {
-        /* color: #993d66 !important; */
-        color: #7a3e7a !important;
-    }
-    a.link-purple:hover  { 
-        /* color: #622742 !important; */
-        color: #472447 !important;
-    }
-    /*.color-soft-purple, a.link-soft-purple:link, a.link-soft-purple:visited, a.link-soft-purple:active,
+  .bg-color-soft-green {
+    /* https://www.colorhexa.com/99b090 */
+    /* background-color: #99b090; */
+    /* background-color: #e2f3eb; */
+    background-color: #f0f9f5;
+  }
+  .bg-color-green {
+    /* olive: https://clrs.cc/ */
+    background-color: #3d9970;
+  }
+  .color-purple,
+  a.link-purple:link,
+  a.link-purple:visited,
+  a.link-purple:active {
+    /* color: #993d66 !important; */
+    color: #7a3e7a !important;
+  }
+  a.link-purple:hover {
+    /* color: #622742 !important; */
+    color: #472447 !important;
+  }
+  /*.color-soft-purple, a.link-soft-purple:link, a.link-soft-purple:visited, a.link-soft-purple:active,
     .card-body a:link, .card-body a:visited, .card-body a:active {
         color: #845cd6 !important;
     }
-    a.link-soft-purple:hover, .card-body a:hover  { 
-        color: #6533cb !important;  
+    a.link-soft-purple:hover, .card-body a:hover  {
+        color: #6533cb !important;
         text-decoration: none;
     }*/
-    .badge {
-        color: #ffffff;
-        background-color: #8c7291;
-    }
-    .badges {
-        margin-bottom: 10px;
-    }
-    .card {
-        /*background-color: #c2d0bd;*/
-        background-color: #f0f9f5;
-        margin-bottom: 1rem;
-        border: 1px solid rgba(1,1,1,.125);
-    }
+  .badge {
+    color: #ffffff;
+    background-color: #8c7291;
+  }
+  .badges {
+    margin-bottom: 10px;
+  }
+  .card {
+    /*background-color: #c2d0bd;*/
+    background-color: #f0f9f5;
+    margin-bottom: 1rem;
+    border: 1px solid rgba(1, 1, 1, 0.125);
+  }
 
-    @media (max-width: 991px) {
-        .donkey {
-            max-height: 400px;
-        }
+  @media (max-width: 991px) {
+    .donkey {
+      max-height: 400px;
     }
+  }
 
-    @media (min-width: 576px) {
-        .page {
-            margin-top: 10px;
-            margin-bottom: 10px;
-            box-shadow: 1px 1px 10px 0 rgba(0,0,0,0.75);
-            position: relative;
-            padding: 32px;
-        }
+  @media (min-width: 576px) {
+    .page {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.75);
+      position: relative;
+      padding: 32px;
     }
+  }
 
-    h1, h2, h3, h4 {
-        font-weight: 300;
-    }
-    h2 {
-        margin-top: .5rem;
-        margin-bottom: .5rem;
-    }
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-weight: 300;
+  }
+  h2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
 
-    /*dt {
+  /*dt {
         font-weight: normal;
     }*/
 }
 
 @media print {
-    .col-print-1 {
-        flex: 0 0 8.333333%;
-        max-width: 8.333333%;
-    }
+  .col-print-1 {
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+  }
 
-    .col-print-2 {
-        flex: 0 0 16.666667%;
-        max-width: 16.666667%;
-    }
+  .col-print-2 {
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
 
-    .col-print-3 {
-        flex: 0 0 25%;
-        max-width: 25%;
-    }
+  .col-print-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
 
-    .col-print-4 {
-        flex: 0 0 33.333333%;
-        max-width: 33.333333%;
-    }
+  .col-print-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
 
-    .col-print-5 {
-        flex: 0 0 41.666667%;
-        max-width: 41.666667%;
-    }
+  .col-print-5 {
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+  }
 
-    .col-print-6 {
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
+  .col-print-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
 
-    .col-print-7 {
-        flex: 0 0 58.333333%;
-        max-width: 58.333333%;
-    }
+  .col-print-7 {
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+  }
 
-    .col-print-8 {
-        flex: 0 0 66.666667%;
-        max-width: 66.666667%;
-    }
+  .col-print-8 {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
 
-    .col-print-9 {
-        flex: 0 0 75%;
-        max-width: 75%;
-    }
+  .col-print-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
 
-    .col-print-10 {
-        flex: 0 0 83.333333%;
-        max-width: 83.333333%;
-    }
+  .col-print-10 {
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
 
-    .col-print-11 {
-        flex: 0 0 91.666667%;
-        max-width: 91.666667%;
-    }
+  .col-print-11 {
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+  }
 
-    .col-print-12 {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
+  .col-print-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }

@@ -1,12 +1,12 @@
-const fs = require('fs');
-const pdf = require('html-pdf');
+const fs = require("fs");
+const pdf = require("html-pdf");
 
 module.exports = function buildPdf(input, output) {
-  const html = fs.readFileSync(input, 'utf8');
+  const html = fs.readFileSync(input, "utf8");
   const options = {
-    format: 'A4',
-    orientation: 'portrait',
-    border: '2.54cm',
+    format: "A4",
+    orientation: "portrait",
+    border: "2.54cm",
   };
 
   return new Promise((resolve, reject) => {
@@ -17,5 +17,5 @@ module.exports = function buildPdf(input, output) {
       }
       resolve();
     });
-  })
-}
+  });
+};
