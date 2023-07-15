@@ -53,6 +53,7 @@ module.exports = {
         // "Kubernetes",
         "kubespray",
         "rancher",
+        "MetalLB",
         "RKE",
         "Terraform",
         "Ansible",
