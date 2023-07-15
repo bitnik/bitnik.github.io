@@ -34,11 +34,11 @@ module.exports = {
   },
   skills: [
     "DevOps Engineering",
-    "Full Stack Development",
     "Containerization",
     "Container Orchestration",
-    "Site Reliability Engr.",
     "CI/CD Engineering",
+    // 'Site Reliability Engr.',
+    "Full Stack Development",
     "Linux Ecosystem",
     "Relational Databases",
     "Web Servers",
@@ -50,27 +50,31 @@ module.exports = {
       date: "05.2021 - current",
       position: "Kubernetes Engineer",
       badges: [
-        "Kubernetes",
+        // "Kubernetes",
+        "kubespray",
+        "rancher",
         "RKE",
-        "VMware",
         "Terraform",
         "Ansible",
         "GitLab CI",
         "Argo CD",
         "Nexus",
-        "Prometheus & Loki Stack",
-        "Kyverno",
-        "Renovate",
-        "Kanban",
-        "Infrastructure-as-a-code",
+        // "Prometheus & Loki Stack",
+        // "Kyverno",
+        // "Renovate",
+        // "Kanban",
+        // "Infrastructure-as-a-code",
       ],
       content: `
-**Project:** Setup secure and reliable kubernetes clusters on-premises in higly regulated and secure environment.
+**Project:** Setup secure and reliable multi-tenant kubernetes clusters on-premises in higly regulated and secure environment.
 
 **Responsibilities:**
 
 - Development of K8s clusters as IaC
+- Policy enforcement with Kyverno
+- Setup monitoring, alerting and logging with Prometheus and Loki stacks
 - Implementing tests
+- Setup Renovate for automated dependency updates
 - Collaborating with developers to better understand their needs
 - Hosting daily meetings regularly
 - Prepare learning sessions
@@ -83,20 +87,20 @@ module.exports = {
       position: "Lead Software Developer",
       badges: [
         "python",
-        "JupyterHub",
-        "BinderHub",
+        // "JupyterHub",
+        // "BinderHub",
         "Docker",
         "Kubernetes",
         "Helm",
-        "NFS Provisioner",
+        // "NFS Provisioner",
         "GitLab CI/CD",
         "Prometheus",
         "Grafana",
         "Elastic Stack",
         "Node.js",
         "npm",
-        "Webpack",
-        "repo2docker",
+        // "Webpack",
+        // "repo2docker",
         "nginx",
       ],
       content: `
@@ -108,8 +112,8 @@ or learning to program languages such as R, Python or Julia.
 
 - Planning of the complete software development process
 - Setup and maintenance of the servers and the kubernetes cluster
-- Deployment and maintenance of [a Persistent BinderHub](https://notebooks.gesis.org/) and [a public BinderHub](https://notebooks.gesis.org/binder/)
-(GitHub repo: [gesiscss/orc](https://github.com/gesiscss/orc))
+- Deployment and maintenance of [a Persistent BinderHub](https://github.com/gesiscss/persistent_binderhub) and [a public BinderHub](https://github.com/jupyterhub/binderhub)
+(deployment repo: [gesiscss/orc](https://github.com/gesiscss/orc))
 - Automation of all aspects including image building, chart and configuration updates and deployments
 - Initial implementation of the "GESIS Login" system (based on Keycloak)
 - Cooperation with open source projects (Jupyter projects) and contributing
@@ -131,7 +135,7 @@ Reference: [Dr. Arnim Bleier](https://www.gesis.org/en/institute/staff/person/ar
         "Gunicorn",
         "nginx",
         "REST API",
-        "OpenAPI Specification",
+        // "OpenAPI Specification",
         "Swagger",
         "PostgreSQL",
         "Celery",
@@ -147,7 +151,7 @@ This means that for every token, its individual add/removal/reintroduction histo
 **Responsibilities:**
 
 - Speed and accuracy improvement of the existing core WikiWho algorithm
-- Realisation of [the website, the REST API and a web-based API interface](https://www.wikiwho.net/)
+- Realisation of [the website, the REST API and a web-based API interface](https://github.com/gesiscss/wikiwho_api_public)
 - Parsing Wikipedia archives for various languages and applying WikiWho on them to generate base data for APIs
 - Realisation of an event listener for Wikipedia events, connected to a task queue
 - Update and improvement of [the WhoColor server and user tools](https://github.com/wikiwho/WhoColor)
@@ -293,8 +297,8 @@ Exchange Semester
     "Pilates",
     "Reading",
     "Meditation",
-    "Sewing",
+    // 'Sewing',
     "Wood work",
-    // 'Bicycling'
+    "Bicycling",
   ],
 };
