@@ -90,14 +90,17 @@ Providing support as DevOps/Platform engineer in various projects.
 
 **Responsibilities:**
 
-- Development of K8s clusters as IaC
-- Policy enforcement with Kyverno
+- Development of the platform as IaC using terraform and ansible
+- Setting up and maintaining CI pipelines within Gitlab and Jenkins
+- Setting up and maintaining CD with ArgoCD
 - Setting up monitoring, alerting and logging with Prometheus and Loki stacks
+- Policy enforcement with Kyverno
+- Implementing K8s network policies for each application
 - Implementing tests
 - Setting up Renovate for automated dependency updates
 - Collaborating with developers to better understand their needs
-- Hosting daily meetings regularly
 - Preparing learning sessions
+- Hosting daily meetings regularly
 `,
     },
     {
