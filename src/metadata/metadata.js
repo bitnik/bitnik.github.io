@@ -66,7 +66,7 @@ Providing support as DevOps/Platform engineer in various projects.
     {
       title:
         '<a href="https://www.next-kraftwerke.de/">Next Kraftwerke GmbH</a>, Cologne, Germany',
-      date: "05.2021 - current",
+      date: "05.2021 - 12.2023",
       position: "Kubernetes Engineer",
       badges: [
         // "Kubernetes",
