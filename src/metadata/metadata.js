@@ -1,6 +1,6 @@
 module.exports = {
   name: "Kenan Erdoğan",
-  title: "Software Engineer",
+  title: "DevOps Engineer",
   baseUrl: "https://bitnik.xyz/cv.html",
   photo: "KenanErdogan.jpg",
   picture: "john-emms-a-donkey.jpg",
