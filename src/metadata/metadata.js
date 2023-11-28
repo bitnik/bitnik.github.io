@@ -86,7 +86,7 @@ Providing support as DevOps/Platform engineer in various projects.
         // "Infrastructure-as-a-code",
       ],
       content: `
-**Project:** Setting up secure and reliable multi-tenant kubernetes clusters on-premises in higly regulated and secure environments.
+**Project:** Setting up secure and reliable multi-tenant kubernetes clusters on-premises in highly regulated and secure environments.
 
 **Responsibilities:**
 
