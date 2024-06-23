@@ -51,16 +51,19 @@ module.exports = {
       badges: [
         "Kubernetes",
         "Ansible",
+        "Terraform",
         "Helm Charts",
         "GitLab CI",
+        "Argo CD",
         "Prometheus Stack",
         "Loki Stack",
         "Grafana Alerts",
+        "Kyverno",
         "Renovate",
-        "Infrastructure-as-a-code",
+        "Sensu",
       ],
       content: `
-Providing support as DevOps/Platform engineer in various projects.
+DevOps/Platform engineering in various projects.
 `,
     },
     {
@@ -231,27 +234,27 @@ Reference: [Dr. Fabian Flöck](https://www.linkedin.com/in/fabian-fl%C3%B6ck-768
     },
   ],
   projects: [
-    {
-      title: "Binder Launches",
-      badges: [
-        "React",
-        "Material-UI",
-        "Express.js",
-        "Node.js",
-        "npm",
-        "python",
-        "TimescaleDB",
-        "Docker",
-        "Helm chart",
-        "GitHub Actions",
-      ],
-      content: `
-[Binder launches repo](https://github.com/bitnik/binder_launches) contains
+//     {
+//       title: "Binder Launches",
+//       badges: [
+//         "React",
+//         "Material-UI",
+//         "Express.js",
+//         "Node.js",
+//         "npm",
+//         "python",
+//         "TimescaleDB",
+//         "Docker",
+//         "Helm chart",
+//         "GitHub Actions",
+//       ],
+//       content: `
+// [Binder launches repo](https://github.com/bitnik/binder_launches) contains
 
-- a script to parse binder launch events and save into TimescaleDB
-- a frontend to visualize launches using React with Material-UI which is backed by Express.js
-`,
-    },
+// - a script to parse binder launch events and save into TimescaleDB
+// - a frontend to visualize launches using React with Material-UI which is backed by Express.js
+// `,
+//     },
     //     {
     //       title: 'Curriculum Vitae',
     //       badges: ['Node.js', 'npm', 'GitHub Actions', 'GitHub Pages'],
@@ -312,6 +315,7 @@ Exchange Semester
     ["Turkish", "native"],
     ["English", "fluent"],
     ["German", "B2"],
+    ["Persian", "Beginner"],
   ],
   interests: [
     "Hiking",
