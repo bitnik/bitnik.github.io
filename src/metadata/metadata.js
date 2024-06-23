@@ -38,8 +38,8 @@ module.exports = {
     "Container Orchestration",
     "CI/CD Engineering",
     // 'Site Reliability Engr.',
-    "Full Stack Development",
     "Linux Ecosystem",
+    "Full Stack Development",
     "Relational Databases",
     "Web Servers",
   ],
@@ -49,6 +49,8 @@ module.exports = {
       date: "01.2023 - current",
       // position: "DevOps/Platform Engineer",
       badges: [
+        "Infrastructure-as-a-code",
+        "Container security",
         "Kubernetes",
         "Ansible",
         "Terraform",
