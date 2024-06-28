@@ -33,39 +33,73 @@ module.exports = {
                 </a>`,
   },
   skills: [
-    "DevOps Engineering",
+    // "DevOps Engineering",
     "Containerization",
     "Container Orchestration",
+    "Container Security",
     "CI/CD Engineering",
     // 'Site Reliability Engr.',
+    "Infrastructure as Code",
+    "Software Development",
+    // "Full Stack Development",
     "Linux Ecosystem",
-    "Full Stack Development",
+    // "IaC",
     "Relational Databases",
-    "Web Servers",
+    // "Web Servers",
   ],
   experiences: [
     {
-      title: "Freelancing",
-      date: "01.2023 - current",
-      // position: "DevOps/Platform Engineer",
+      title: '<a href="https://utimaco.com/de">Utimaco GmbH</a>',
+      date: "01.2024 - 06.2024",
+      position: "DevOps Engineer (Freelancer)",
       badges: [
-        "Infrastructure-as-a-code",
-        "Container security",
+        // "Infrastructure-as-a-code",
+        "Microsoft Azure",
         "Kubernetes",
         "Ansible",
         "Terraform",
         "Helm Charts",
         "GitLab CI",
         "Argo CD",
-        "Prometheus Stack",
-        "Loki Stack",
-        "Grafana Alerts",
         "Kyverno",
-        "Renovate",
         "Sensu",
       ],
       content: `
-DevOps/Platform engineering in various projects.
+* Creating and maintaining Helm Charts
+* Setting up monitoring with Sensu
+* Setting up and maintaining CI pipelines within Gitlab
+* Maintain and improve the terraform code which is used to setup the platform
+* Policy enforcement with Kyverno
+* Implementing K8s network policies
+`,
+    },
+    {
+      title:
+        '<a href="https://personal-business-machine.com/">PBM Personal Business Machine AG</a>',
+      date: "01.2023 - 12.2023",
+      position: "DevOps Engineer (Freelancer)",
+      badges: [
+        // "Infrastructure-as-a-code",
+        // "Container security",
+        "Kubernetes",
+        "Ansible",
+        "Terraform",
+        "Helm Charts",
+        "GitLab CI",
+        // "Argo CD",
+        "Prometheus Stack",
+        // "Loki Stack",
+        // "Grafana Alerts",
+        // "Kyverno",
+        "Renovate",
+        // "Sensu",
+      ],
+      content: `
+* Automatisation of creating Kubernetes clusters
+* Maintenance and upgrade of Kubernetes clusters
+* Containerization with Helm charts and maintenance
+* Creating and maintaining Helm Charts library
+* Dependency automation with Renovate
 `,
     },
     {
@@ -95,24 +129,24 @@ DevOps/Platform engineering in various projects.
 
 **Responsibilities:**
 
-- Development of the platform as IaC using terraform and ansible
-- Setting up and maintaining CI pipelines within Gitlab and Jenkins
-- Setting up and maintaining CD with ArgoCD
-- Setting up monitoring, alerting and logging with Prometheus and Loki stacks
-- Policy enforcement with Kyverno
-- Implementing K8s network policies for each application
-- Implementing tests
-- Setting up Renovate for automated dependency updates
-- Collaborating with developers to better understand their needs
-- Preparing learning sessions
-- Hosting daily meetings regularly
+* Development of the platform as IaC using terraform and ansible
+* Setting up and maintaining CI pipelines within Gitlab and Jenkins
+* Setting up and maintaining CD with Argo CD
+* Setting up monitoring, alerting and logging with Prometheus and Loki stacks
+* Policy enforcement with Kyverno
+* Implementing K8s network policies for each application
+* Implementing tests
+* Setting up Renovate for automated dependency updates
+* Collaborating with developers to better understand their needs
+* Preparing learning sessions
+* Hosting daily meetings regularly
 `,
     },
     {
       title:
         '<a href="https://www.gesis.org/en/home">GESIS – Leibniz Institute for the Social Sciences</a>, Cologne, Germany',
       date: "10.2017 - 12.2020",
-      position: "Lead Software Developer",
+      position: "Software Engineer",
       badges: [
         "python",
         // "JupyterHub",
@@ -138,16 +172,16 @@ or learning to program languages such as R, Python or Julia.
 
 **Responsibilities:**
 
-- Planning of the complete software development process
-- Setup and maintenance of the servers and the kubernetes cluster
-- Deployment and maintenance of [a Persistent BinderHub](https://github.com/gesiscss/persistent_binderhub) and [a public BinderHub](https://github.com/jupyterhub/binderhub)
+* Planning of the complete software development process
+* Setup and maintenance of the servers and the kubernetes cluster
+* Deployment and maintenance of [a Persistent BinderHub](https://github.com/gesiscss/persistent_binderhub) and [a public BinderHub](https://github.com/jupyterhub/binderhub)
 (deployment repo: [gesiscss/orc](https://github.com/gesiscss/orc))
-- Automation of all aspects including image building, chart and configuration updates and deployments
-- Initial implementation of the "GESIS Login" system (based on Keycloak)
-- Cooperation with open source projects (Jupyter projects) and contributing
-- Jupytercon 2020 Talk: ["A Persistent BinderHub: Democratizing Access to Computational Resources in the Social Sciences"](https://www.youtube.com/watch?v=dwidVhPtQT4)
-- Tutoring in ["Introduction to Python"](https://hf-graduiertenschule.uni-koeln.de/index.php?id=32102&L=1) workshop
-- Publication of ["iLCM - A Virtual Research Infrastructure for Large-Scale Qualitative Data."](https://arxiv.org/abs/1805.11404)
+* Automation of all aspects including image building, chart and configuration updates and deployments
+* Initial implementation of the "GESIS Login" system (based on Keycloak)
+* Cooperation with open source projects (Jupyter projects) and contributing
+* Jupytercon 2020 Talk: ["A Persistent BinderHub: Democratizing Access to Computational Resources in the Social Sciences"](https://www.youtube.com/watch?v=dwidVhPtQT4)
+* Tutoring in ["Introduction to Python"](https://hf-graduiertenschule.uni-koeln.de/index.php?id=32102&L=1) workshop
+* Publication of ["iLCM - A Virtual Research Infrastructure for Large-Scale Qualitative Data."](https://arxiv.org/abs/1805.11404)
 
 Reference: [Dr. Arnim Bleier](https://www.gesis.org/en/institute/staff/person/arnim.bleier)
 `,
@@ -156,7 +190,7 @@ Reference: [Dr. Arnim Bleier](https://www.gesis.org/en/institute/staff/person/ar
       title:
         '<a href="https://www.gesis.org/en/home">GESIS – Leibniz Institute for the Social Sciences</a>, Cologne, Germany',
       date: "07.2016 - 09.2017",
-      position: "Lead Software Developer",
+      position: "Software Engineer",
       badges: [
         "python",
         "Django",
@@ -178,13 +212,13 @@ This means that for every token, its individual add/removal/reintroduction histo
 
 **Responsibilities:**
 
-- Speed and accuracy improvement of the existing core WikiWho algorithm
-- Realisation of [the website, the REST API and a web-based API interface](https://github.com/gesiscss/wikiwho_api_public)
-- Parsing Wikipedia archives for various languages and applying WikiWho on them to generate base data for APIs
-- Realisation of an event listener for Wikipedia events, connected to a task queue
-- Update and improvement of [the WhoColor server and user tools](https://github.com/wikiwho/WhoColor)
-- Data analyses of authorship, persistence, conflict and editor interactions
-- Generation of a [data set](https://doi.org/10.5281/zenodo.834557) for the entire English Wikipedia:
+* Speed and accuracy improvement of the existing core WikiWho algorithm
+* Realisation of [the website, the REST API and a web-based API interface](https://github.com/gesiscss/wikiwho_api_public)
+* Parsing Wikipedia archives for various languages and applying WikiWho on them to generate base data for APIs
+* Realisation of an event listener for Wikipedia events, connected to a task queue
+* Update and improvement of [the WhoColor server and user tools](https://github.com/wikiwho/WhoColor)
+* Data analyses of authorship, persistence, conflict and editor interactions
+* Generation of a [data set](https://doi.org/10.5281/zenodo.834557) for the entire English Wikipedia:
 ["TokTrack: A Complete Token Provenance and Change Tracking Dataset for the English Wikipedia"](https://arxiv.org/abs/1703.08244)
 
 Reference: [Dr. Fabian Flöck](https://www.linkedin.com/in/fabian-fl%C3%B6ck-7689658/)
@@ -236,27 +270,26 @@ Reference: [Dr. Fabian Flöck](https://www.linkedin.com/in/fabian-fl%C3%B6ck-768
     },
   ],
   projects: [
-//     {
-//       title: "Binder Launches",
-//       badges: [
-//         "React",
-//         "Material-UI",
-//         "Express.js",
-//         "Node.js",
-//         "npm",
-//         "python",
-//         "TimescaleDB",
-//         "Docker",
-//         "Helm chart",
-//         "GitHub Actions",
-//       ],
-//       content: `
-// [Binder launches repo](https://github.com/bitnik/binder_launches) contains
-
-// - a script to parse binder launch events and save into TimescaleDB
-// - a frontend to visualize launches using React with Material-UI which is backed by Express.js
-// `,
-//     },
+    //     {
+    //       title: "Binder Launches",
+    //       badges: [
+    //         "React",
+    //         "Material-UI",
+    //         "Express.js",
+    //         "Node.js",
+    //         "npm",
+    //         "python",
+    //         "TimescaleDB",
+    //         "Docker",
+    //         "Helm chart",
+    //         "GitHub Actions",
+    //       ],
+    //       content: `
+    // [Binder launches repo](https://github.com/bitnik/binder_launches) contains
+    // - a script to parse binder launch events and save into TimescaleDB
+    // - a frontend to visualize launches using React with Material-UI which is backed by Express.js
+    // `,
+    //     },
     //     {
     //       title: 'Curriculum Vitae',
     //       badges: ['Node.js', 'npm', 'GitHub Actions', 'GitHub Pages'],
@@ -294,7 +327,6 @@ Topic: Design and implementation of a server on a graphic processor for secure R
 - RFID protocol servers
 
 ##### Extracurricular Activities
-
 - 09.2007 - 06.2011 : Member of the ITU Control and Automation Student Society
 - 09.2008 - 06.2009 : Committee Member of the ITU Robotic Olympics
 - 09.2008 - 01.2009 : Member of the ITU Mountaineering Club
