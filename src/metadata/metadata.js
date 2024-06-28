@@ -50,7 +50,7 @@ module.exports = {
   experiences: [
     {
       title: '<a href="https://utimaco.com/de">Utimaco GmbH</a>',
-      date: "01.2024 - 06.2024",
+      date: "11.2024 - 06.2024",
       position: "DevOps Engineer (Freelancer)",
       badges: [
         // "Infrastructure-as-a-code",
@@ -76,7 +76,7 @@ module.exports = {
     {
       title:
         '<a href="https://personal-business-machine.com/">PBM Personal Business Machine AG</a>',
-      date: "01.2023 - 12.2023",
+      date: "01.2023 - current",
       position: "DevOps Engineer (Freelancer)",
       badges: [
         // "Infrastructure-as-a-code",
