@@ -173,7 +173,7 @@ or learning to program languages such as R, Python or Julia.
 **Responsibilities:**
 
 * Planning of the complete software development process
-* Setup and maintenance of the servers and the kubernetes cluster
+* Setup and maintenance of the servers and the kubernetes cluster on-premises
 * Deployment and maintenance of [a Persistent BinderHub](https://github.com/gesiscss/persistent_binderhub) and [a public BinderHub](https://github.com/jupyterhub/binderhub)
 (deployment repo: [gesiscss/orc](https://github.com/gesiscss/orc))
 * Automation of all aspects including image building, chart and configuration updates and deployments
