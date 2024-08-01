@@ -135,7 +135,7 @@ module.exports = {
 * Setting up monitoring, alerting and logging with Prometheus and Loki stacks
 * Policy enforcement with Kyverno
 * Implementing K8s network policies for each application
-* Implementing tests
+* Implementing tests with ansible (molecule) and bash (bats)
 * Setting up Renovate for automated dependency updates
 * Collaborating with developers to better understand their needs
 * Preparing learning sessions
@@ -183,7 +183,6 @@ or learning to program languages such as R, Python or Julia.
 * Tutoring in ["Introduction to Python"](https://hf-graduiertenschule.uni-koeln.de/index.php?id=32102&L=1) workshop
 * Publication of ["iLCM - A Virtual Research Infrastructure for Large-Scale Qualitative Data."](https://arxiv.org/abs/1805.11404)
 
-Reference: [Dr. Arnim Bleier](https://www.gesis.org/en/institute/staff/person/arnim.bleier)
 `,
     },
     {
@@ -221,7 +220,6 @@ This means that for every token, its individual add/removal/reintroduction histo
 * Generation of a [data set](https://doi.org/10.5281/zenodo.834557) for the entire English Wikipedia:
 ["TokTrack: A Complete Token Provenance and Change Tracking Dataset for the English Wikipedia"](https://arxiv.org/abs/1703.08244)
 
-Reference: [Dr. Fabian Flöck](https://www.linkedin.com/in/fabian-fl%C3%B6ck-7689658/)
 `,
     },
     {
