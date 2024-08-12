@@ -125,6 +125,8 @@ module.exports = {
         // "Prometheus & Loki Stack",
         // "Kyverno",
         // "Renovate",
+        "python",
+        "bash",
         "Kanban",
         // "Infrastructure-as-a-code",
       ],
@@ -141,6 +143,7 @@ module.exports = {
 * Implementing K8s network policies for each application
 * Implementing tests with ansible (molecule) and bash (bats)
 * Setting up Renovate for automated dependency updates
+* Scripting with python and bash
 * Collaborating with developers to better understand their needs
 * Preparing learning sessions
 * Hosting daily meetings regularly
