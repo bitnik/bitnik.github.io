@@ -63,6 +63,7 @@ module.exports = {
         "Argo CD",
         "Kyverno",
         "Sensu",
+        "HashiCorp Vault",
       ],
       content: `
 * Creating and maintaining Helm Charts
@@ -81,6 +82,7 @@ module.exports = {
       badges: [
         // "Infrastructure-as-a-code",
         // "Container security",
+        "gridscale",
         "Kubernetes",
         "Ansible",
         "Terraform",
@@ -108,7 +110,8 @@ module.exports = {
       date: "05.2021 - 12.2023",
       position: "Kubernetes Engineer",
       badges: [
-        // "Kubernetes",
+        "On-premises private cloud",
+        "Kubernetes",
         "kubespray",
         "rancher",
         "MetalLB",
@@ -118,10 +121,11 @@ module.exports = {
         "GitLab CI",
         "Argo CD",
         "Nexus",
+        "HashiCorp Vault",
         // "Prometheus & Loki Stack",
         // "Kyverno",
         // "Renovate",
-        // "Kanban",
+        "Kanban",
         // "Infrastructure-as-a-code",
       ],
       content: `
@@ -149,9 +153,10 @@ module.exports = {
       position: "Software Engineer",
       badges: [
         "python",
+        "On-premises private cloud",
         // "JupyterHub",
         // "BinderHub",
-        "Docker",
+        // "Docker",
         "Kubernetes",
         "Helm",
         // "NFS Provisioner",
