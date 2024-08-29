@@ -56,7 +56,6 @@ module.exports = {
         // "Infrastructure-as-a-code",
         "Microsoft Azure",
         "Kubernetes",
-        "Ansible",
         "Terraform",
         // "Helm Charts",
         "GitLab CI",
@@ -69,7 +68,7 @@ module.exports = {
 * Creating and maintaining Helm Charts
 * Setting up monitoring with Sensu
 * Setting up and maintaining Continuous Integration and Continuous Delivery
-* Maintainance and improvement of IaC implementation
+* Maintenance and improvement of IaC implementation
 * Implementing policy enforcement and network policies
 `,
     },
@@ -89,7 +88,6 @@ module.exports = {
         "Loki Stack",
         "Grafana",
         // "Grafana Alerting",
-        "Kyverno",
         "Renovate",
       ],
       content: `
@@ -359,7 +357,7 @@ Exchange Semester
     "Swimming",
     "Jogging",
     "Pilates",
-    "Reading",
+    "Reading & Learning",
     "Meditation",
     // 'Sewing',
     "Wood work",
