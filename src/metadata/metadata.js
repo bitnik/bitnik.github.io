@@ -26,11 +26,11 @@ module.exports = {
       '<a class="link-soft-purple" href="https://github.com/bitnik"><i class="fab fa-github fa-custom"></i>bitnik</a>',
     LinkedIn:
       '<a class="link-soft-purple" href="https://www.linkedin.com/in/kenanerdogan"><i class="fab fa-linkedin fa-custom"></i>kenanerdogan</a>',
-    // 'Xing': '<a class="link-soft-purple" href="https://www.xing.com/profile/Kenan_Erdogan12"><i class="fab fa-xing-square fa-custom"></i>Kenan_Erdogan12</a>',
-    Homepage: `<a class="link-soft-purple" href="https://www.bitnik.xyz">
-                  <span class="print"><i class="fas fa-globe fa-custom"></i>https://bitnik.xyz</span>
-                  <span class="screen"><i class="fas fa-globe fa-custom"></i>bitnik.xyz</span>
-                </a>`,
+    // Xing: '<a class="link-soft-purple" href="https://www.xing.com/profile/Kenan_Erdogan12"><i class="fab fa-xing-square fa-custom"></i>Kenan_Erdogan12</a>',
+    // Homepage: `<a class="link-soft-purple" href="https://www.bitnik.xyz">
+    //               <span class="print"><i class="fas fa-globe fa-custom"></i>https://bitnik.xyz</span>
+    //               <span class="screen"><i class="fas fa-globe fa-custom"></i>bitnik.xyz</span>
+    //             </a>`,
   },
   skills: [
     // "DevOps Engineering",
@@ -58,7 +58,7 @@ module.exports = {
         "Kubernetes",
         "Ansible",
         "Terraform",
-        "Helm Charts",
+        // "Helm Charts",
         "GitLab CI",
         "Argo CD",
         "Kyverno",
@@ -68,10 +68,9 @@ module.exports = {
       content: `
 * Creating and maintaining Helm Charts
 * Setting up monitoring with Sensu
-* Setting up and maintaining CI pipelines within Gitlab
-* Maintain and improve the terraform code which is used to setup the platform
-* Policy enforcement with Kyverno
-* Implementing K8s network policies
+* Setting up and maintaining Continuous Integration and Continuous Delivery
+* Maintainance and improvement of IaC implementation
+* Implementing policy enforcement and network policies
 `,
     },
     {
@@ -80,28 +79,26 @@ module.exports = {
       date: "01.2023 - current",
       position: "DevOps Engineer (Freelancer)",
       badges: [
-        // "Infrastructure-as-a-code",
-        // "Container security",
         "gridscale",
         "Kubernetes",
         "Ansible",
         "Terraform",
-        "Helm Charts",
+        // "Helm Charts",
         "GitLab CI",
-        // "Argo CD",
         "Prometheus Stack",
-        // "Loki Stack",
-        // "Grafana Alerts",
-        // "Kyverno",
+        "Loki Stack",
+        "Grafana",
+        // "Grafana Alerting",
+        "Kyverno",
         "Renovate",
-        // "Sensu",
       ],
       content: `
-* Automatisation of creating Kubernetes clusters
+* Implementing and maintaining Infrastructure as Code
 * Maintenance and upgrade of Kubernetes clusters
-* Containerization with Helm charts and maintenance
-* Creating and maintaining Helm Charts library
-* Dependency automation with Renovate
+* Implementation and maintenance of the Helm Charts library
+* Maintenance of CI/CD pipelines
+* Setup and maintenance of monitoring, alerting and logging
+* Implementation of dependency automation
 `,
     },
     {
@@ -111,22 +108,26 @@ module.exports = {
       position: "Kubernetes Engineer",
       badges: [
         "On-premises private cloud",
+        "Air-gapped environment",
         "Kubernetes",
         "kubespray",
+        "RKE",
         "rancher",
         "MetalLB",
-        "RKE",
         "Terraform",
         "Ansible",
         "GitLab CI",
         "Argo CD",
         "Nexus",
         "HashiCorp Vault",
-        // "Prometheus & Loki Stack",
-        // "Kyverno",
-        // "Renovate",
-        "python",
-        "bash",
+        "Prometheus Stack",
+        "Loki Stack",
+        "Grafana",
+        // "Prometheus Alerting",
+        "Kyverno",
+        "Renovate",
+        // "python",
+        // "bash",
         "Kanban",
         // "Infrastructure-as-a-code",
       ],
@@ -136,17 +137,14 @@ module.exports = {
 **Responsibilities:**
 
 * Development of the platform as IaC using terraform and ansible
-* Setting up and maintaining CI pipelines within Gitlab and Jenkins
-* Setting up and maintaining CD with Argo CD
-* Setting up monitoring, alerting and logging with Prometheus and Loki stacks
-* Policy enforcement with Kyverno
-* Implementing K8s network policies for each application
+* Setting up and maintaining Continuous Integration (Gitlab and Jenkins) and Continuous Delivery (Argo CD)
+* Setup and maintenance of monitoring, alerting and logging
+* Implementing policy enforcement and network policies
 * Implementing tests with ansible (molecule) and bash (bats)
 * Setting up Renovate for automated dependency updates
 * Scripting with python and bash
 * Collaborating with developers to better understand their needs
-* Preparing learning sessions
-* Hosting daily meetings regularly
+* Hosting daily meetings regularly and preparing learning sessions
 `,
     },
     {
@@ -156,11 +154,11 @@ module.exports = {
       position: "Software Engineer",
       badges: [
         "python",
-        "On-premises private cloud",
+        // "On-premises private cloud",
         // "JupyterHub",
         // "BinderHub",
-        // "Docker",
         "Kubernetes",
+        "Docker",
         "Helm",
         // "NFS Provisioner",
         "GitLab CI/CD",
@@ -181,15 +179,14 @@ or learning to program languages such as R, Python or Julia.
 **Responsibilities:**
 
 * Planning of the complete software development process
-* Setup and maintenance of the servers and the kubernetes cluster on-premises
+* Setup and maintenance of the servers and the kubernetes cluster on-premises (private cloud)
 * Deployment and maintenance of [a Persistent BinderHub](https://github.com/gesiscss/persistent_binderhub) and [a public BinderHub](https://github.com/jupyterhub/binderhub)
-(deployment repo: [gesiscss/orc](https://github.com/gesiscss/orc))
 * Automation of all aspects including image building, chart and configuration updates and deployments
-* Initial implementation of the "GESIS Login" system (based on Keycloak)
 * Cooperation with open source projects (Jupyter projects) and contributing
 * Jupytercon 2020 Talk: ["A Persistent BinderHub: Democratizing Access to Computational Resources in the Social Sciences"](https://www.youtube.com/watch?v=dwidVhPtQT4)
 * Tutoring in ["Introduction to Python"](https://hf-graduiertenschule.uni-koeln.de/index.php?id=32102&L=1) workshop
 * Publication of ["iLCM - A Virtual Research Infrastructure for Large-Scale Qualitative Data."](https://arxiv.org/abs/1805.11404)
+* Initial implementation of the "GESIS Login" system (based on Keycloak)
 
 `,
     },
@@ -215,13 +212,12 @@ or learning to program languages such as R, Python or Julia.
 **Project:** [WikiWho](https://github.com/wikiwho/WikiWho) is an algorithm to parse
 the complete set of all historical revisions of a revisioned Wiki document
 in order to find out who wrote and/or removed and/or reinserted which exact text at token (~word) level at what revision.
-This means that for every token, its individual add/removal/reintroduction history becomes available.
 
 **Responsibilities:**
 
 * Speed and accuracy improvement of the existing core WikiWho algorithm
 * Realisation of [the website, the REST API and a web-based API interface](https://github.com/gesiscss/wikiwho_api_public)
-* Parsing Wikipedia archives for various languages and applying WikiWho on them to generate base data for APIs
+* Parsing Wikipedia archives for various languages to generate base data for APIs
 * Realisation of an event listener for Wikipedia events, connected to a task queue
 * Update and improvement of [the WhoColor server and user tools](https://github.com/wikiwho/WhoColor)
 * Data analyses of authorship, persistence, conflict and editor interactions
@@ -234,17 +230,18 @@ This means that for every token, its individual add/removal/reintroduction histo
       title: '<a href="https://www.mir.de/">MIR MEDIA</a>, Cologne, Germany',
       date: "07.2015 - 06.2016",
       position: "Software Developer",
+      // badges: [],
       badges: ["python", "Django"],
-      content:
-        "Backend development of websites for customers such as Elbphilarmonie and Lucerne Festival",
+      content: "Backend development with Python and Django",
     },
     // comment below to have PDF version 2 pages
     {
       title: "Induux GmbH, Stuttgart, Germany",
       date: "11.2014 - 03.2015",
       position: "Software Developer",
+      // badges: [],
       badges: ["python", "Django"],
-      content: "Backend development",
+      content: "Backend development with Python and Django",
     },
     {
       title: "Elektrobit Automotive GmbH, Böblingen, Germany",
