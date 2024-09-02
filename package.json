@@ -24,11 +24,11 @@
   "homepage": "https://github.com/bitnik/bitnik.xyz#readme",
   "devDependencies": {
     "chokidar-cli": "^3.0.0",
-    "live-server": "^1.1.0"
+    "live-server": "^1.2.2"
   },
   "dependencies": {
-    "dayjs": "1.11.0",
-    "fs-extra": "^10.0.1",
+    "dayjs": "1.11.4",
+    "fs-extra": "^10.1.0",
     "handlebars": "^4.7.7",
     "markdown": "^0.5.0",
     "puppeteer": "^20.8.2",
