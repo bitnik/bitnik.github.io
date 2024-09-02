@@ -5,15 +5,15 @@ on:
       - main
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
     # https://github.com/actions/checkout
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
     # https://github.com/actions/setup-node
-    - uses: actions/setup-node@v1
+    - uses: actions/setup-node@v4
       with:
-        node-version: '18.x'
+        node-version: '20.x'
     # use --production to install only dependencies, not devDependencies
     - name: Install and Build
       run: |

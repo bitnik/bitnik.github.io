@@ -29,8 +29,8 @@ nvm ls-remote
 # List installed versions, matching a given <version> if provided
 nvm ls [<version>]
 # We use v12.20.0
-nvm install 18.16.1
-nvm use 18.16.1
+nvm install 20.17.0
+nvm use 20.17.0
 
 # Check versions
 nvm version
