@@ -97,8 +97,10 @@ Proven ability to work effectively within secure, air-gapped on-premise environm
         "Loki Stack",
         "Grafana",
         // "Grafana Alerting",
+        // "cert-manager",
         "MariaDB",
         "Harbor",
+        // "GitLab Server",
         "Keycloak",
         "Renovate",
       ],
@@ -109,6 +111,7 @@ Proven ability to work effectively within secure, air-gapped on-premise environm
 * Sustained and enhanced CI/CD pipelines, optimizing workflow automation and reducing deployment times.
 * Established and maintained monitoring, alerting, and logging systems, improving operational visibility and responsiveness.
 * Automated dependency management, reducing manual intervention and enhancing system reliability.
+* Maintenance and upgrade of Harbor and GitLab servers.
 `,
     },
     {
@@ -139,6 +142,10 @@ Proven ability to work effectively within secure, air-gapped on-premise environm
         "Renovate",
         "python",
         "bash",
+        "trivy",
+        // "sonobuoy",
+        "kube-bench",
+        // "popeye",
         "Kanban",
         // "Infrastructure-as-a-code",
       ],
