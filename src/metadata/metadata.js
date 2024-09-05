@@ -47,6 +47,11 @@ module.exports = {
     "Relational Databases",
     // "Web Servers",
   ],
+  summary: `
+DevOps Engineer with over 9 years of experience in software development, streamlining CI/CD pipelines, automation,
+containerization, Kubernetes cluster management, and implementing Infrastructure as Code (IaC) solutions.
+Proven ability to work effectively within secure, air-gapped on-premise environments as well as public cloud platforms.
+  `,
   experiences: [
     {
       title: '<a href="https://utimaco.com/de">Utimaco GmbH</a>',
@@ -57,19 +62,23 @@ module.exports = {
         "Microsoft Azure",
         "Kubernetes",
         "Terraform",
-        // "Helm Charts",
+        "Helm",
         "GitLab CI",
         "Argo CD",
         "Kyverno",
         "Sensu",
+        "Postgresql",
+        "cert-manager",
+        "mTLS",
+        "Keycloak",
         "HashiCorp Vault",
       ],
       content: `
-* Creating and maintaining Helm Charts
-* Setting up monitoring with Sensu
-* Setting up and maintaining Continuous Integration and Continuous Delivery
-* Maintenance and improvement of IaC implementation
-* Implementing policy enforcement and network policies
+* Designed, developed, and maintained Helm Charts for application deployment and management.
+* Established and configured the monitoring using Sensu.
+* Implemented and maintained CI/CD pipelines, ensuring efficient and reliable deployments.
+* Enhanced and maintained the IaC implementation, improving infrastructure reliability and scalability.
+* Implemented policy enforcement and network policies, ensuring robust security.
 `,
     },
     {
@@ -82,21 +91,24 @@ module.exports = {
         "Kubernetes",
         "Ansible",
         "Terraform",
-        // "Helm Charts",
+        "Helm",
         "GitLab CI",
         "Prometheus Stack",
         "Loki Stack",
         "Grafana",
         // "Grafana Alerting",
+        "MariaDB",
+        "Harbor",
+        "Keycloak",
         "Renovate",
       ],
       content: `
-* Implementing and maintaining Infrastructure as Code
-* Maintenance and upgrade of Kubernetes clusters
-* Implementation and maintenance of the Helm Charts library
-* Maintenance of CI/CD pipelines
-* Setup and maintenance of monitoring, alerting and logging
-* Implementation of dependency automation
+* Developed and maintained IaC solutions, ensuring consistent and automated environment provisioning.
+* Oversaw the maintenance and upgrade of Kubernetes clusters.
+* Designed, developed, and maintained Helm Charts for application deployment and management.
+* Sustained and enhanced CI/CD pipelines, optimizing workflow automation and reducing deployment times.
+* Established and maintained monitoring, alerting, and logging systems, improving operational visibility and responsiveness.
+* Automated dependency management, reducing manual intervention and enhancing system reliability.
 `,
     },
     {
@@ -105,8 +117,8 @@ module.exports = {
       date: "05.2021 - 12.2023",
       position: "Kubernetes Engineer",
       badges: [
+        "Air-gapped",
         "On-premises private cloud",
-        "Air-gapped environment",
         "Kubernetes",
         "kubespray",
         "RKE",
@@ -123,26 +135,28 @@ module.exports = {
         "Grafana",
         // "Prometheus Alerting",
         "Kyverno",
+        "Helm",
         "Renovate",
-        // "python",
-        // "bash",
+        "python",
+        "bash",
         "Kanban",
         // "Infrastructure-as-a-code",
       ],
       content: `
-**Project:** Setting up secure and reliable multi-tenant kubernetes clusters on-premises in highly regulated and secure environments.
+**Project:** Implementing secure and reliable multi-tenant kubernetes clusters on-premises in highly regulated and secure environments.
 
 **Responsibilities:**
 
-* Development of the platform as IaC using terraform and ansible
-* Setting up and maintaining Continuous Integration (Gitlab and Jenkins) and Continuous Delivery (Argo CD)
-* Setup and maintenance of monitoring, alerting and logging
-* Implementing policy enforcement and network policies
-* Implementing tests with ansible (molecule) and bash (bats)
-* Setting up Renovate for automated dependency updates
-* Scripting with python and bash
-* Collaborating with developers to better understand their needs
-* Hosting daily meetings regularly and preparing learning sessions
+* Architected and implemented IaC solutions, ensuring consistent and automated environment provisioning.
+* Developed and maintained CI pipelines with GitLab and Jenkins, alongside CD workflows using Argo CD.
+* Established and maintained monitoring, alerting, and logging systems.
+* Implemented policy enforcement and network policies to meet regulatory and security requirements.
+* Developed automated testing frameworks using Ansible (Molecule) and Bash (Bats) to improve code quality and reliability.
+* Integrated Renovate for automated dependency updates, streamlining software maintenance and reducing manual intervention.
+* Wrote and maintained Python and Bash scripts for automation tasks, improving efficiency and reducing operational overhead.
+* Organized learning sessions to foster a culture of continuous improvement and knowledge sharing.
+* Collaborating with developers to gain a deeper understanding of their requirements and objectives.
+
 `,
     },
     {
@@ -152,7 +166,7 @@ module.exports = {
       position: "Software Engineer",
       badges: [
         "python",
-        // "On-premises private cloud",
+        "On-premises private cloud",
         // "JupyterHub",
         // "BinderHub",
         "Kubernetes",
@@ -165,7 +179,7 @@ module.exports = {
         "Elastic Stack",
         "Node.js",
         "npm",
-        // "Webpack",
+        "Webpack",
         // "repo2docker",
         "nginx",
       ],
@@ -176,15 +190,14 @@ or learning to program languages such as R, Python or Julia.
 
 **Responsibilities:**
 
-* Planning of the complete software development process
-* Setup and maintenance of the servers and the kubernetes cluster on-premises (private cloud)
-* Deployment and maintenance of [a Persistent BinderHub](https://github.com/gesiscss/persistent_binderhub) and [a public BinderHub](https://github.com/jupyterhub/binderhub)
-* Automation of all aspects including image building, chart and configuration updates and deployments
-* Cooperation with open source projects (Jupyter projects) and contributing
-* Jupytercon 2020 Talk: ["A Persistent BinderHub: Democratizing Access to Computational Resources in the Social Sciences"](https://www.youtube.com/watch?v=dwidVhPtQT4)
-* Tutoring in ["Introduction to Python"](https://hf-graduiertenschule.uni-koeln.de/index.php?id=32102&L=1) workshop
-* Publication of ["iLCM - A Virtual Research Infrastructure for Large-Scale Qualitative Data."](https://arxiv.org/abs/1805.11404)
-* Initial implementation of the "GESIS Login" system (based on Keycloak)
+* Planned and oversaw the entire software development process for [GESIS Notebooks](https://notebooks.gesis.org/about.html).
+* Set up and maintained on-premises linux servers and Kubernetes clusters, ensuring robust infrastructure.
+* Deployed, maintained and operated a [Persistent BinderHub](https://github.com/gesiscss/persistent_binderhub) and a public BinderHub ([deployment repo](https://github.com/gesiscss/orc)).
+* Automation of all aspects including image building, chart and configuration updates and deployments, improving operational efficiency.
+* Collaborated with and contributed to open-source projects within the Jupyter ecosystem.
+* Delivered a [talk](https://www.youtube.com/watch?v=dwidVhPtQT4) at JupyterCon 2020 and tutored in ["Introduction to Python"](https://hf-graduiertenschule.uni-koeln.de/index.php?id=32102&L=1) workshop.
+* Published ["iLCM - A Virtual Research Infrastructure for Large-Scale Qualitative Data"](https://arxiv.org/abs/1805.11404) and ["Online Reproducible Computational Analysis for the Social Sciences"](https://zenodo.org/records/7362188#.Y4Phki8w2Ld)
+* Led the initial implementation of the "GESIS Login" system using Keycloak.
 
 `,
     },
@@ -205,6 +218,7 @@ or learning to program languages such as R, Python or Julia.
         "Celery",
         "RabbitMQ",
         "WikiPedia",
+        "Keycloak",
       ],
       content: `
 **Project:** [WikiWho](https://github.com/wikiwho/WikiWho) is an algorithm to parse
@@ -213,14 +227,14 @@ in order to find out who wrote and/or removed and/or reinserted which exact text
 
 **Responsibilities:**
 
-* Speed and accuracy improvement of the existing core WikiWho algorithm
-* Realisation of [the website, the REST API and a web-based API interface](https://github.com/gesiscss/wikiwho_api_public)
-* Parsing Wikipedia archives for various languages to generate base data for APIs
-* Realisation of an event listener for Wikipedia events, connected to a task queue
-* Update and improvement of [the WhoColor server and user tools](https://github.com/wikiwho/WhoColor)
-* Data analyses of authorship, persistence, conflict and editor interactions
-* Generation of a [data set](https://doi.org/10.5281/zenodo.834557) for the entire English Wikipedia:
-["TokTrack: A Complete Token Provenance and Change Tracking Dataset for the English Wikipedia"](https://arxiv.org/abs/1703.08244)
+* Enhanced the speed and accuracy of the core [WikiWho](https://github.com/wikiwho/WikiWho) algorithm, improving overall performance and reliability.
+* Developed and implemented a website, REST API, and web-based API interface ([WikiWho API](https://github.com/gesiscss/wikiwho_api_public)).
+* Parsed Wikipedia archives across multiple languages to generate foundational data for APIs.
+* Implemented an event listener for Wikipedia events, connected to a task queue to process real-time updates.
+* Updated, improved and maintained the [WhoColor](https://github.com/wikiwho/WhoColor) server and user tools, enhancing functionality and user experience.
+* Conducted data analyses on authorship, persistence, conflict, and editor interactions, providing valuable insights into Wikipedia's collaborative dynamics,
+generated a [data set](https://doi.org/10.5281/zenodo.834557), and
+published ["TokTrack: A Complete Token Provenance and Change Tracking Dataset for the English Wikipedia"](https://arxiv.org/abs/1703.08244).
 
 `,
     },
@@ -233,14 +247,14 @@ in order to find out who wrote and/or removed and/or reinserted which exact text
       content: "Backend development with Python and Django",
     },
     // comment below to have PDF version 2 pages
-    {
-      title: "Induux GmbH, Stuttgart, Germany",
-      date: "11.2014 - 03.2015",
-      position: "Software Developer",
-      // badges: [],
-      badges: ["python", "Django"],
-      content: "Backend development with Python and Django",
-    },
+    // {
+    //   title: "Induux GmbH, Stuttgart, Germany",
+    //   date: "11.2014 - 03.2015",
+    //   position: "Software Developer",
+    //   badges: [],
+    //   // badges: ["python", "Django"],
+    //   content: "Backend development with Python and Django",
+    // },
     {
       title: "Elektrobit Automotive GmbH, Böblingen, Germany",
       date: "11.2013 - 05.2014",
@@ -257,8 +271,8 @@ in order to find out who wrote and/or removed and/or reinserted which exact text
         "software versioning",
         "Unit testing",
         "GUI development",
-        "CAN Bus",
-        "CANoe",
+        // "CAN Bus",
+        // "CANoe",
       ],
       content: "",
     },
@@ -306,40 +320,32 @@ in order to find out who wrote and/or removed and/or reinserted which exact text
       content: `
 M.Sc. in Information Technology
 
-##### Master Thesis at Industrial Automation Systems Institute
-Topic: Realization of incremental learning for automated identification using the example of products recognition
+Master Thesis:
+Developed an incremental machine learning model for automated product recognition.
+Support Vector Machines (SVM) is used for classification and implemented with Python and scikit-learn ML library.
 
-- Incremental Learning, Machine Learning
-- Classification with Support Vector Machines (SVM)
-- Learn++ and Learn++.NC based on SVM
-- Python, scikit-learn ML library
 `,
     },
     {
       title: "Istanbul Technical University, Turkey",
       date: "09.2006 - 06.2011",
       content: `
-B.Sc. in Electronics Engineering (graduation in honor list)
+B.Sc. in Electronics Engineering
 
-##### Bachelor Thesis at Embedded System Design Laboratory
-Topic: Design and implementation of a server on a graphic processor for secure RFID systems
+Bachelor Thesis:
+Designed and implementated a server on a graphic processor for secure RFID systems using parallel programming with CUDA.
 
-- Parallel programming with CUDA
-- RFID protocol servers
+Exchange Semester in ESIGELEC, Rouen, France.
 
-##### Extracurricular Activities
-- 09.2007 - 06.2011 : Member of the ITU Control and Automation Student Society
-- 09.2008 - 06.2009 : Committee Member of the ITU Robotic Olympics
-- 09.2008 - 01.2009 : Member of the ITU Mountaineering Club
 `,
     },
-    {
-      title: "ESIGELEC, Rouen, France",
-      date: "09.2009 - 02.2010",
-      content: `
-Exchange Semester
-`,
-    },
+    //     {
+    //       title: "ESIGELEC, Rouen, France",
+    //       date: "09.2009 - 02.2010",
+    //       content: `
+    // Exchange Semester
+    // `,
+    //     },
     // {
     //   title: 'Adnan Menderes Anatolian High School, Istanbul, Turkey',
     //   date: '09.2002 - 06.2006',

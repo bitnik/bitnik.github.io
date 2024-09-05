@@ -24,13 +24,13 @@
                     <div class="col-print-3 col-lg-3 col-md-4 pr-0"><img class="photo img-fluid" src="{{ photo }}"></div>
                     <div class="col-print-9 col-lg-9 col-md-8"><h1>{{ name }}<br/>{{ title }}</h1></div>
             </div>
-            <br>
+            <!-- <br>
             <p class="cv-info">
                 <time datetime="{{ buildinfo.date }}" class="text-muted">Last update: {{ updated }}</time>
                 <br>
                 <span class="screen"><a class="link-soft-purple" href="{{ pdfFileName }}"><i class="fas fa-file-pdf fa-custom" aria-hidden="true"></i>Download the PDF version</a></span>
                 <span class="print">The online version is available at <a href="{{ baseUrl }}" class="text-nowrap">{{ baseUrl }}</a></span>
-            </p>
+            </p> -->
         </div>
         <div class="col-md-4 col-print-4 pr-0">
             <dl class="row">
@@ -38,7 +38,14 @@
                 <!--dt class="col-print-3 col-md-3 col-sm-2">{{ @key }}</dt-->
                 <dd class="col-print-12 col-md-12 mb-1">{{{ this }}}</dd>
                 {{/each}}
+                <dd class="screen col-print-12 col-md-12 mb-1"><a class="link-soft-purple" href="{{ pdfFileName }}"><i class="fas fa-file-pdf fa-custom" aria-hidden="true"></i>Download the PDF version</a></dd>
             </dl>
+        </div>
+    </div>
+
+    <div>
+        <div class="card-body summary">
+            {{ summary }}
         </div>
     </div>
 
@@ -59,9 +66,11 @@
     {{#each experiences}}
     <div class="card">
         <div class="card-body">
-            <p class="text-muted">{{ date }}</p>
-            <h4>{{{position}}}</h4>
-            <h5>{{{title}}}</h4>
+            <div class="title">
+                <h3>{{{position}}}</h3>
+                <p class="text-muted">{{ date }}</p>
+            </div>
+            <h4>{{{title}}}</h4>
             {{#if content}}
             {{{markdown content }}}
             {{/if}}
@@ -81,7 +90,7 @@
     {{#each projects}}
     <div class="card">
         <div class="card-body">
-            <h4>{{ title }}</h4>
+            <h3>{{ title }}</h3>
             {{#if content}}
             {{{markdown content }}}
             {{/if}}
@@ -95,22 +104,24 @@
     {{/each}}
 
     <h2>Higher Education</h2>
+    {{#each education}}
     <div class="card">
         <div class="card-body">
-            {{#each education}}
-            <h4>{{ title }}</h4>
-            <p class="text-muted mb-0">{{ date }}</p>
+            <div class="title">
+                <h3>{{ title }}</h3>
+                <p class="text-muted mb-0">{{ date }}</p>
+            </div>
             {{#if content}}
             {{{markdown content }}}
             {{/if}}
-            {{/each}}
         </div>
     </div>
+    {{/each}}
 
     {{!-- <h2>Knowledge and Skills</h2>
     <div class="card">
         <div class="card-body">
-            <h4>Tech</h4>
+            <h3>Tech</h3>
             <div class="row mb-2">
                 {{#each skills}}
                 <div class="col-print-3 col-md-3 col-sm-6 col-12">
@@ -118,7 +129,7 @@
                 </div>
                 {{/each}}
             </div>
-            <h4>Languages</h4>
+            <h3>Languages</h3>
             <div class="row">
                 {{#each languages}}
                 <div class="col-print-3 col-md-3 col-sm-6 col-12">

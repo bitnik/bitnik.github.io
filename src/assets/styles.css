@@ -11,7 +11,6 @@
     /* font-weight: normal; */
     /* letter-spacing: 0.05rem; */
     vertical-align: middle;
-    padding: 0.4em 0.5em;
   }
 
   a .fa-custom,
@@ -21,10 +20,38 @@
   }
 
   .card-body p {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0;
   }
+
   .card {
     border: none;
+  }
+
+  .title {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  body {
+    font-size: 12pt;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h2 {
+    font-size: 18pt;
+    margin-top: 0rem;
+    margin-bottom: 0.5rem;
+  }
+
+  h3 {
+    font-size: 16pt;
+    margin-bottom: 0.2rem;
+  }
+
+  h4 {
+    font-size: 14pt;
+    margin-bottom: 0.2rem;
   }
 }
 
@@ -33,22 +60,24 @@
     display: none;
   }
 
-  body {
-    font-size: 19px;
-  }
-
   .card {
     margin-bottom: 0;
   }
+
   .card-body {
     padding: 0;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .card-body ul {
+    margin-bottom: 0.3rem;
   }
 
   .badge {
     border: 0.07rem solid #808080;
     color: #808080;
-    margin-bottom: 0.25em;
+    margin-bottom: 0.1em;
+    padding: 0.3em 0.3em;
     /* background-color: #f0f0f0; */
   }
 
@@ -73,6 +102,7 @@
   body {
     color: #111111;
   }
+
   .print {
     display: none;
   }
@@ -87,10 +117,12 @@
     /* background-color: #e2f3eb; */
     background-color: #f0f9f5;
   }
+
   .bg-color-green {
     /* olive: https://clrs.cc/ */
     background-color: #3d9970;
   }
+
   .color-purple,
   a.link-purple:link,
   a.link-purple:visited,
@@ -98,10 +130,12 @@
     /* color: #993d66 !important; */
     color: #7a3e7a !important;
   }
+
   a.link-purple:hover {
     /* color: #622742 !important; */
     color: #472447 !important;
   }
+
   /*.color-soft-purple, a.link-soft-purple:link, a.link-soft-purple:visited, a.link-soft-purple:active,
     .card-body a:link, .card-body a:visited, .card-body a:active {
         color: #845cd6 !important;
@@ -110,18 +144,29 @@
         color: #6533cb !important;
         text-decoration: none;
     }*/
+
   .badge {
     color: #ffffff;
     background-color: #8c7291;
+    padding: 0.4em 0.4em;
   }
-  .badges {
-    margin-bottom: 10px;
+
+  .card-body {
+    padding: 1rem;
   }
+  .summary {
+    padding-top: 0;
+  }
+
   .card {
     /*background-color: #c2d0bd;*/
     background-color: #f0f9f5;
     margin-bottom: 1rem;
     border: 1px solid rgba(1, 1, 1, 0.125);
+  }
+
+  .card-body ul {
+    margin-bottom: 0.5rem;
   }
 
   @media (max-width: 991px) {
@@ -143,12 +188,9 @@
   h1,
   h2,
   h3,
-  h4 {
+  h4,
+  h5 {
     font-weight: 300;
-  }
-  h2 {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
   }
 
   /*dt {
