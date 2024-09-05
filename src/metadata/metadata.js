@@ -179,9 +179,10 @@ Proven ability to work effectively within secure, air-gapped on-premise environm
         "Elastic Stack",
         "Node.js",
         "npm",
-        "Webpack",
+        // "Webpack",
         // "repo2docker",
         "nginx",
+        "Keycloak",
       ],
       content: `
 **Project:** [GESIS Notebooks](https://notebooks.gesis.org/about/) is a free and hosted service for running Jupyter Notebooks requiring no installation,
@@ -218,7 +219,6 @@ or learning to program languages such as R, Python or Julia.
         "Celery",
         "RabbitMQ",
         "WikiPedia",
-        "Keycloak",
       ],
       content: `
 **Project:** [WikiWho](https://github.com/wikiwho/WikiWho) is an algorithm to parse
